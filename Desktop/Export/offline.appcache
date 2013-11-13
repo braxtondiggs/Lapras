@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1383929512
+#1384324707
 index.html
 c2runtime.js
 jquery-2.0.0.min.js
@@ -125,12 +125,11 @@ images\blocks-sheet2.png
 images\blueparticles.png
 images\tiledbackground2.png
 images\ball-sheet0.png
-images\ball-sheet1.png
-images\ball-sheet2.png
 images\solidborder-sheet0.png
 images\redreload-sheet0.png
 images\bluereload-sheet0.png
 images\reloadbg-sheet0.png
+images\blueexplosion-sheet0.png
 icon-16.png
 icon-32.png
 icon-114.png
