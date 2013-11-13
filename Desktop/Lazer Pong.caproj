@@ -10,17 +10,17 @@
     <unique-id>uryjzibbt8ns</unique-id>
     <saved-with-version>14600</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
-        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
         <effect author="Scirra" id="noise">Noise</effect>
@@ -46,7 +46,7 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use iOS retina display">All devices</prop>
     </configuration-settings>
-    <object-folder expanded="0">
+    <object-folder expanded="1">
         <object-folder expanded="0" name="Blue Paddle">
             <object-type name="Blue1" sid="9686970235828238">
                 <plugin id="Sprite" />
@@ -1217,10 +1217,22 @@
                 </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4693162170784181" speed="5">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4693162170784181" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
                             <point x="0.20875" y="0.22625" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.78" y="0.22" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.78" y="0.78" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.22" y="0.78" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.22" y="0.22" />
                             <point x="0.5" y="0.1" />
                             <point x="0.78" y="0.22" />
                             <point x="0.9" y="0.5" />
@@ -1319,6 +1331,63 @@
         </object-type>
         <object-type name="Keyboard" sid="8001091707786589">
             <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Log" sid="1925529945317615">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BlueExplosion" sid="7954922551165">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="cast" sid="9837355747529931" type="number" />
+            </instance-variables>
+            <effects>
+                <effect-type name="Noise">
+                    <effect id="noise" />
+                </effect-type>
+            </effects>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9785057132506127" speed="5">
+                    <frame duration="1" hotspotX="0.501597" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.204473" y="0.207792" />
+                            <point x="0.498403" y="0.0487013" />
+                            <point x="0.805112" y="0.198052" />
+                            <point x="0.904153" y="0.5" />
+                            <point x="0.798722" y="0.795455" />
+                            <point x="0.498403" y="0.909091" />
+                            <point x="0.182109" y="0.814935" />
+                            <point x="0.0958466" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RedExplosion" sid="6735825023353585">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="cast" sid="4783106064346262" type="number" />
+            </instance-variables>
+            <effects>
+                <effect-type name="Noise">
+                    <effect id="noise" />
+                </effect-type>
+            </effects>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2343329044270354" speed="5">
+                    <frame duration="1" hotspotX="0.501597" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.204473" y="0.207792" />
+                            <point x="0.498403" y="0.0487013" />
+                            <point x="0.805112" y="0.198052" />
+                            <point x="0.904153" y="0.5" />
+                            <point x="0.798722" y="0.795455" />
+                            <point x="0.498403" y="0.909091" />
+                            <point x="0.182109" y="0.814935" />
+                            <point x="0.0958466" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
@@ -1481,14 +1550,14 @@
                 <instance-variable name="Laser_Strength" sid="9889816857183815" type="number" />
             </instance-variables>
             <behaviors>
+                <behavior-type name="Physics" sid="7432780338731591">
+                    <behavior id="Physics" />
+                </behavior-type>
                 <behavior-type name="8Direction" sid="8075593251398265">
                     <behavior id="EightDir" />
                 </behavior-type>
                 <behavior-type name="Pin" sid="4493221561291032">
                     <behavior id="Pin" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="7432780338731591">
-                    <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
         </family>

@@ -4,8 +4,8 @@
     <sid>1257497824825172</sid>
     <event-sheet>Main Sheet</event-sheet>
     <size>
-        <width>1280</width>
-        <height>1024</height>
+        <width>640</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -438,18 +438,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -464,6 +452,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -494,18 +494,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -520,6 +508,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -550,18 +550,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -576,6 +564,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -606,18 +606,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -632,6 +620,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -662,18 +662,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -688,6 +676,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -718,18 +718,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -744,6 +732,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -774,18 +774,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -800,6 +788,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -830,18 +830,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -856,6 +844,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -886,18 +886,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -912,6 +900,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -942,18 +942,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -968,6 +956,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -998,18 +998,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1024,6 +1012,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1054,18 +1054,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1080,6 +1068,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1110,18 +1110,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1136,6 +1124,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1166,18 +1166,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1192,6 +1180,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1222,18 +1222,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1248,6 +1236,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1278,18 +1278,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1304,6 +1292,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1334,18 +1334,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1360,6 +1348,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1390,18 +1390,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1416,6 +1404,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1446,18 +1446,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1472,6 +1460,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1502,18 +1502,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1528,6 +1516,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1558,18 +1558,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1584,6 +1572,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1614,18 +1614,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1640,6 +1628,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1670,18 +1670,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1696,6 +1684,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1726,18 +1726,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1752,6 +1740,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1782,18 +1782,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1808,6 +1796,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1838,18 +1838,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1864,6 +1852,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1894,18 +1894,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1920,6 +1908,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1950,18 +1950,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -1976,6 +1964,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2006,18 +2006,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2032,6 +2020,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2062,18 +2062,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2088,6 +2076,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2118,18 +2118,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2144,6 +2132,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2174,18 +2174,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2200,6 +2188,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2230,18 +2230,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2256,6 +2244,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2286,18 +2286,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2312,6 +2300,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2342,18 +2342,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2368,6 +2356,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2398,18 +2398,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2424,6 +2412,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2454,18 +2454,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2480,6 +2468,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2510,18 +2510,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2536,6 +2524,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2566,18 +2566,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2592,6 +2580,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2622,18 +2622,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2648,6 +2636,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2678,18 +2678,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2704,6 +2692,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2734,18 +2734,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2760,6 +2748,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2790,18 +2790,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2816,6 +2804,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2846,18 +2846,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2872,6 +2860,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2902,18 +2902,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2928,6 +2916,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2958,18 +2958,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -2984,6 +2972,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3014,18 +3014,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3040,6 +3028,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3070,18 +3070,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3096,6 +3084,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3126,18 +3126,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3152,6 +3140,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3182,18 +3182,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3208,6 +3196,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3238,18 +3238,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3264,6 +3252,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3294,18 +3294,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3320,6 +3308,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3350,18 +3350,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3376,6 +3364,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3406,18 +3406,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3432,6 +3420,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3462,18 +3462,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3488,6 +3476,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3518,18 +3518,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3544,6 +3532,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3574,18 +3574,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3600,6 +3588,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3630,18 +3630,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3656,6 +3644,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3686,18 +3686,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3712,6 +3700,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3742,18 +3742,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3768,6 +3756,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3798,18 +3798,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3824,6 +3812,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3854,18 +3854,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3880,6 +3868,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3910,18 +3910,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3936,6 +3924,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3966,18 +3966,6 @@
                         <Laser_Strength>10</Laser_Strength>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>500</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>1000</deceleration>
-                                <directions>Up &amp; down</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -3992,6 +3980,18 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>500</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>1000</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -4220,7 +4220,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4276,7 +4276,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4332,7 +4332,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4388,7 +4388,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4444,7 +4444,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4500,7 +4500,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4556,7 +4556,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4612,7 +4612,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4668,7 +4668,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4724,7 +4724,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4780,7 +4780,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4836,7 +4836,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4892,7 +4892,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -4948,7 +4948,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5004,7 +5004,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5060,7 +5060,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5116,7 +5116,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5172,7 +5172,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5228,7 +5228,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5284,7 +5284,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5340,7 +5340,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5396,7 +5396,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5452,7 +5452,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5508,7 +5508,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5564,7 +5564,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5620,7 +5620,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5676,7 +5676,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5732,7 +5732,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5788,7 +5788,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5844,7 +5844,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5900,7 +5900,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -5956,7 +5956,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6012,7 +6012,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6068,7 +6068,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6124,7 +6124,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6180,7 +6180,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6236,7 +6236,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6292,7 +6292,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6348,7 +6348,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6404,7 +6404,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6460,7 +6460,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6516,7 +6516,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6572,7 +6572,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6628,7 +6628,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6684,7 +6684,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6740,7 +6740,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6796,7 +6796,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6852,7 +6852,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6908,7 +6908,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -6964,7 +6964,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7020,7 +7020,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7076,7 +7076,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7132,7 +7132,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7188,7 +7188,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7244,7 +7244,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7300,7 +7300,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7356,7 +7356,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7412,7 +7412,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7468,7 +7468,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7524,7 +7524,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7580,7 +7580,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7636,7 +7636,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7692,7 +7692,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7748,7 +7748,7 @@
                                 <deceleration>1000</deceleration>
                                 <directions>Up &amp; down</directions>
                                 <set-angle>No</set-angle>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -7799,14 +7799,74 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>320</x>
-                        <y>-18</y>
+                        <x>321</x>
+                        <y>32</y>
                         <z>0</z>
                         <width>638.479248047</width>
-                        <height>37.826187134</height>
+                        <height>37</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.513513505</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Log" uid="147">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>76</x>
+                        <y>61</y>
+                        <z>0</z>
+                        <width>206</width>
+                        <height>168</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BlueExplosion" uid="148">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <cast>0</cast>
+                    </instance-variables>
+                    <effect-instances>
+                        <effect-instance type="Noise">
+                            <parameters>
+                                <color>1</color>
+                                <intensity>0.4</intensity>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>660</x>
+                        <y>-258</y>
+                        <z>0</z>
+                        <width>313</width>
+                        <height>308</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501597464</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
