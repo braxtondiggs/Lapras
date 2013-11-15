@@ -17,10 +17,10 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
     </used-behaviors>
     <used-effects>
         <effect author="Scirra" id="noise">Noise</effect>
@@ -41,7 +41,7 @@
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Hide address bar">No</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
-        <prop name="Pause on unfocus">Yes</prop>
+        <prop name="Pause on unfocus">No</prop>
         <prop name="Preview browser">(default)</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use iOS retina display">All devices</prop>
@@ -1339,6 +1339,7 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="cast" sid="9837355747529931" type="number" />
+                <instance-variable name="max" sid="2853346132529791" type="boolean" />
             </instance-variables>
             <effects>
                 <effect-type name="Noise">
@@ -1388,6 +1389,22 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="BlueGoalParticles" sid="8697605357138254">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="RedHighlighter" sid="7205377261106687">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9416278660196899" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RedGoalParticles" sid="6943095045843852">
+            <plugin id="Particles" />
+            <texture />
         </object-type>
     </object-folder>
     <families>
