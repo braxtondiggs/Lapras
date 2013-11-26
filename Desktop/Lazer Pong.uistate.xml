@@ -11,9 +11,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout>Main Game</layout>
-        <layout>Title Screen</layout>
         <event-sheet active="1">Main Sheet</event-sheet>
-        <event-sheet>Intro Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -24,5 +22,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1">
         <family expanded="0" name="BluePaddleFamily" />
         <family expanded="0" name="RedPaddleFamily" />
+        <family expanded="0" name="IntroFamilly" />
+        <family expanded="0" name="Buttons" />
     </families-expanded>
 </c2uistate>

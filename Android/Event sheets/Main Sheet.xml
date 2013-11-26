@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Main Sheet</name>
+    <events>
+        <event-group description="" sid="8500847926461144" title="CPUControls">
+            <sub-events>
+                <event-block any="1" sid="1606425836473893">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3440651560459638" type="RedPaddleFamily">
+                            <param id="0" name="Instance variable">Controls</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;CPU&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4065701585057836">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="2716892888454126" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3536722098440356">
+                                    <conditions>
+                                        <condition id="-21" name="Is between values" sid="5787412454808285" type="System">
+                                            <param id="0" name="Value">RedPaddleFamily.Y +64</param>
+                                            <param id="1" name="Lower bound">BluePaddleFamily.Y</param>
+                                            <param id="2" name="Upper bound">BluePaddleFamily.Y +128</param>
+                                        </condition>
+                                        <condition id="-8" name="Compare two values" sid="687612571063115" type="System">
+                                            <param id="0" name="First value">floor(random(1,60))</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">1</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="8855411459363903" type="RedReload">
+                                            <param id="0" name="Instance variable">level</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">93</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="5222160707773973" type="RedPaddleFamily">
+                                            <param id="0" name="Instance variable">Shoot</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="8854214634545361">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="9704793983439301" type="System" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="1550931454921418">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="4201237447345663" type="RedReload">
+                                                    <param id="0" name="Instance variable">level</param>
+                                                    <param id="1" name="Comparison">3</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-13" name="Set boolean" sid="3499895966914509" type="RedPaddleFamily">
+                                                    <param id="0" name="Instance variable">Shoot</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4905247882088266">
+                            <conditions>
+                                <condition id="-3" name="Is on-screen" sid="4651414421833362" type="Ball" />
+                                <condition id="-15" name="Pick nearest/furthest" sid="3982514113275689" type="Ball">
+                                    <param id="0" name="Which">0</param>
+                                    <param id="1" name="X">RedPaddleFamily.X</param>
+                                    <param id="2" name="Y">RedPaddleFamily.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6604091231611768">
+                                    <conditions>
+                                        <condition id="-2" name="Compare Y" sid="142109627533902" type="Ball">
+                                            <param id="0" name="Comparison">4</param>
+                                            <param id="1" name="Y co-ordinate">RedPaddleFamily.Y + 64</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="1828236141486799" type="RedPaddleFamily">
+                                            <param id="0" name="Control">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9196096104083027">
+                                    <conditions>
+                                        <condition id="-2" name="Compare Y" sid="2567201832893856" type="Ball">
+                                            <param id="0" name="Comparison">2</param>
+                                            <param id="1" name="Y co-ordinate">RedPaddleFamily.Y +64</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="8947149343564832" type="RedPaddleFamily">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="437969314280907">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7138775899611315" type="System" />
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1994646773235075">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1283451811765239" type="BluePaddleFamily">
+                            <param id="0" name="Instance variable">Controls</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;CPU&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="9480959054169249">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="5736058040058969" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6200432356407518">
+                                    <conditions>
+                                        <condition id="-21" name="Is between values" sid="485320595315864" type="System">
+                                            <param id="0" name="Value">BluePaddleFamily.Y +64</param>
+                                            <param id="1" name="Lower bound">RedPaddleFamily.Y</param>
+                                            <param id="2" name="Upper bound">RedPaddleFamily.Y +128</param>
+                                        </condition>
+                                        <condition id="-8" name="Compare two values" sid="4249840152285346" type="System">
+                                            <param id="0" name="First value">floor(random(1,60))</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">1</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="7939688989124441" type="BlueReload">
+                                            <param id="0" name="Instance variable">level</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">93</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="6351496576589481" type="BluePaddleFamily">
+                                            <param id="0" name="Instance variable">Shoot</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="4663914979847625">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="5119281247001405" type="System" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="6736240918252964">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="1831061127578815" type="BlueReload">
+                                                    <param id="0" name="Instance variable">level</param>
+                                                    <param id="1" name="Comparison">3</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-13" name="Set boolean" sid="3428406479461193" type="BluePaddleFamily">
+                                                    <param id="0" name="Instance variable">Shoot</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="773393029630093">
+                            <conditions>
+                                <condition id="-3" name="Is on-screen" sid="1297821456201128" type="Ball" />
+                                <condition id="-15" name="Pick nearest/furthest" sid="2100156824744603" type="Ball">
+                                    <param id="0" name="Which">0</param>
+                                    <param id="1" name="X">BluePaddleFamily.X</param>
+                                    <param id="2" name="Y">BluePaddleFamily.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6718986561651115">
+                                    <conditions>
+                                        <condition id="-2" name="Compare Y" sid="5198661259525179" type="Ball">
+                                            <param id="0" name="Comparison">4</param>
+                                            <param id="1" name="Y co-ordinate">BluePaddleFamily.Y + 64</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="8632711382489455" type="BluePaddleFamily">
+                                            <param id="0" name="Control">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9155172704439008">
+                                    <conditions>
+                                        <condition id="-2" name="Compare Y" sid="3041881662444488" type="Ball">
+                                            <param id="0" name="Comparison">2</param>
+                                            <param id="1" name="Y co-ordinate">BluePaddleFamily.Y + 64</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="8Direction" id="7" name="Simulate control" sid="3774845245361926" type="BluePaddleFamily">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Need to reset poition to center</comment>
+                        <event-block sid="5194188137951866">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="6719838793751345" type="System" />
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="9922084588528039" title="UserControls">
+            <sub-events>
+                <event-block collapsed="1" sid="3583599411079238">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2254601390498305" type="BluePaddleFamily">
+                            <param id="0" name="Instance variable">Controls</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;User&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4775563210452037">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="432969754658124" type="Keyboard">
+                                    <param id="0" name="Key">38 (Up arrow)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="8554848331868664" type="BluePaddleFamily">
+                                    <param id="0" name="Control">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5689518519100619">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="9359174744178836" type="Keyboard">
+                                    <param id="0" name="Key">40 (Down arrow)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="227608029500438" type="BluePaddleFamily">
+                                    <param id="0" name="Control">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="4516673589440067">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="5280311144935288" type="Keyboard">
+                                    <param id="0" name="Key">32 (Space)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="4762156988590189" type="BluePaddleFamily">
+                                    <param id="0" name="Instance variable">Shoot</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1867929775133046">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="3927558533959729" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="4423048860786002" type="BluePaddleFamily">
+                                    <param id="0" name="Instance variable">Shoot</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block collapsed="1" sid="6006180892670827">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4408727892835592" type="RedPaddleFamily">
+                            <param id="0" name="Instance variable">Controls</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;User&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="4052810667427519">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="7020889427924831" type="Keyboard">
+                                    <param id="0" name="Key">65 (A)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="907072317702093" type="RedPaddleFamily">
+                                    <param id="0" name="Control">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4437723344522719">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="1009409379021744" type="Keyboard">
+                                    <param id="0" name="Key">90 (Z)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="4640621332016474" type="RedPaddleFamily">
+                                    <param id="0" name="Control">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="3431068677062501">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="8538992859694217" type="Keyboard">
+                                    <param id="0" name="Key">88 (X)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="8716035103103835" type="RedPaddleFamily">
+                                    <param id="0" name="Instance variable">Shoot</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8702252527981199">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="4944782555009428" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="854899020479472" type="RedPaddleFamily">
+                                    <param id="0" name="Instance variable">Shoot</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="8153413772391827" title="Red Laser">
+            <sub-events>
+                <event-block any="1" sid="9056757208091085">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="5603842630067984" type="RedLaser">
+                            <param id="0" name="Object">Blocks</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="5192925391757371" type="RedLaser">
+                            <param id="0" name="Object">Ball</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set spraying" sid="3048824203274268" type="RedParticles">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="1215838316019778" type="RedParticles">
+                            <param id="0" name="Object">RedLaserTip</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block any="1" sid="957009911079451">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="2422632178177625" type="RedLaser">
+                                    <param id="0" name="Object">Ball</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="4271620891836229" type="Ball">
+                                    <param id="0" name="Force">-3</param>
+                                    <param id="1" name="Angle">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2875474569296208">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="3556838017786683" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="5898940060169764" type="RedLaserTip" />
+                                <action id="0" name="Spawn another object" sid="3393461224313411" type="RedLaser">
+                                    <param id="0" name="Object">RedLaserTip</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="591408381616632">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="9211887443492659" type="RedLaser">
+                            <param id="0" name="Object">BluePaddleFamily</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="8931135668353353" type="BluePaddleFamily">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="1313219667940635" type="BluePaddleFamily">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="3531486374603663" type="BluePaddleFamily">
+                            <param id="0" name="Object">Ball</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1288820446038959">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9954916330349637" type="RedPaddleFamily">
+                            <param id="0" name="Instance variable">Shoot</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="9881316673478178" type="RedReload">
+                            <param id="0" name="Instance variable">level</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">93</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6958474030104233">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="7047471564891131" type="System">
+                                    <param id="0" name="Interval (seconds)">0.1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="8383522398876725" type="RedReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Value">0.5</param>
+                                </action>
+                                <action id="-5" name="Set width" sid="897126482482667" type="RedReload">
+                                    <param id="0" name="Width">RedReload.level</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="516886412268544">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="1231751556662966" type="RedPaddleFamily">
+                            <param id="0" name="Instance variable">Shoot</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6480856185493788">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="3958547948131255" type="System">
+                                    <param id="0" name="Interval (seconds)">0.0001</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="5897772268621599" type="RedReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Subtract from" sid="6443734830666383" type="RedReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Value">(self.level &lt;= 2.5)?self.level:2</param>
+                                </action>
+                                <action id="-5" name="Set width" sid="9807285393321901" type="RedReload">
+                                    <param id="0" name="Width">RedReload.level</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9873011974669538">
+                            <conditions>
+                                <condition id="-23" name="While" sid="481558522503399" type="System" />
+                                <condition id="-8" name="Compare two values" sid="2755175475359497" type="System">
+                                    <param id="0" name="First value">RedLaser.Width +1</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Second value">1000</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="9477180400910567" type="RedReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="9778692873055758" type="RedLaser">
+                                    <param id="0" name="Object">Blocks</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="1658909274959149" type="RedLaser">
+                                    <param id="0" name="Object">Ball</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-5" name="Set width" sid="7306532462448115" type="RedLaser">
+                                    <param id="0" name="Width">RedLaser.Width+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5113726532791387">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="7404419010908747" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="7258195667201371" type="Red32">
+                                    <param id="0" name="Object">RedLaser</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7943836295847551">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="1897369130415683" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="8556602614114583">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="9821419222741876" type="RedLaser">
+                                            <param id="0" name="Object">Blocks</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="3000130817945426" type="RedLaser">
+                                            <param id="0" name="Width">(ViewportRight(&quot;Background&quot;) - Blocks.X) -65</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="4247725026155053">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="3442471071793682" type="RedLaser">
+                                            <param id="0" name="Object">Ball</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="7947012769519712" type="RedLaser">
+                                            <param id="0" name="Width">(ViewportRight(&quot;Background&quot;) - Ball.X) - 65</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="6081843517732327">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="4365336404862403" type="RedReload">
+                                            <param id="0" name="Instance variable">level</param>
+                                            <param id="1" name="Comparison">3</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="3781378171712963" type="RedLaser">
+                                            <param id="0" name="Width">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="116435938960775">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2489710078459139" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="2779825907862369" type="RedLaser" />
+                        <action id="-9" name="Destroy" sid="6460145327905499" type="RedLaserTip" />
+                        <action id="0" name="Set spraying" sid="8013853179660857" type="RedParticles">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="6896064362676364" title="Blue Laser">
+            <sub-events>
+                <event-block any="1" sid="128210747516322">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="6774448342136775" type="BlueLaser">
+                            <param id="0" name="Object">Blocks</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="673086724633749" type="BlueLaser">
+                            <param id="0" name="Object">Ball</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set spraying" sid="3683704620397922" type="BlueParticles">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="569786397352488" type="BlueParticles">
+                            <param id="0" name="Object">BlueLaserTip</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block any="1" sid="48028517746366">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="7589768445378215" type="BlueLaser">
+                                    <param id="0" name="Object">Ball</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="6062634451768303" type="Ball">
+                                    <param id="0" name="Force">3</param>
+                                    <param id="1" name="Angle">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2217713426207504">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="3981079633562811" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="7695085381936276" type="BlueLaserTip" />
+                                <action id="0" name="Spawn another object" sid="8172703353586762" type="BlueLaser">
+                                    <param id="0" name="Object">BlueLaserTip</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="3529872123451102">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="9950308802780099" type="BlueLaser">
+                            <param id="0" name="Object">RedPaddleFamily</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="3928434733678391" type="RedPaddleFamily">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="8090195937160815" type="RedPaddleFamily">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="6577947772559292" type="RedPaddleFamily">
+                            <param id="0" name="Object">Ball</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block collapsed="1" sid="9843397691847358">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6179707784997239" type="BluePaddleFamily">
+                            <param id="0" name="Instance variable">Shoot</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="867337005431106" type="BlueReload">
+                            <param id="0" name="Instance variable">level</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">93</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8816218847069795">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="5210106074505545" type="System">
+                                    <param id="0" name="Interval (seconds)">0.1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="1358054495335544" type="BlueReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Value">0.5</param>
+                                </action>
+                                <action id="-5" name="Set width" sid="7432720747744524" type="BlueReload">
+                                    <param id="0" name="Width">BlueReload.level</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block collapsed="1" sid="7664492275031085">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="8448994654722119" type="BluePaddleFamily">
+                            <param id="0" name="Instance variable">Shoot</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="537080758293566">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="912687482030602" type="System">
+                                    <param id="0" name="Interval (seconds)">0.0001</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="62169288032486" type="BlueReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Subtract from" sid="1921829663610484" type="BlueReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Value">(self.level &lt;= 2.5)?self.level:2</param>
+                                </action>
+                                <action id="-5" name="Set width" sid="2889245462473897" type="BlueReload">
+                                    <param id="0" name="Width">BlueReload.level</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6889452110530896">
+                            <conditions>
+                                <condition id="-23" name="While" sid="1372075022567003" type="System" />
+                                <condition id="-8" name="Compare two values" sid="3221938194423911" type="System">
+                                    <param id="0" name="First value">BlueLaser.Width +1</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Second value">1000</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="9146998836231127" type="BlueReload">
+                                    <param id="0" name="Instance variable">level</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="2133415209082599" type="BlueLaser">
+                                    <param id="0" name="Object">Blocks</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="9295777157166738" type="BlueLaser">
+                                    <param id="0" name="Object">Ball</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-5" name="Set width" sid="823322941444969" type="BlueLaser">
+                                    <param id="0" name="Width">BlueLaser.Width+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8872786535584088">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="5918889327701732" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="188121045416536" type="Blue32">
+                                    <param id="0" name="Object">BlueLaser</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8451810324227503">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="6817159247008177" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6055648522139857">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="2732239887781939" type="BlueLaser">
+                                            <param id="0" name="Object">Blocks</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="9433566178760586" type="BlueLaser">
+                                            <param id="0" name="Width">Blocks.X -60</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5891133101869583">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="4284578008790284" type="BlueLaser">
+                                            <param id="0" name="Object">Ball</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="2221371388798534" type="BlueLaser">
+                                            <param id="0" name="Width">Ball.X - 60</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1398946383540056">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="6550082690817083" type="BlueReload">
+                                            <param id="0" name="Instance variable">level</param>
+                                            <param id="1" name="Comparison">3</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="2319534736219725" type="BlueLaser">
+                                            <param id="0" name="Width">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6837926658855576">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="6968334595671869" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="6841692657967492" type="BlueLaser" />
+                        <action id="-9" name="Destroy" sid="6842332783511668" type="BlueLaserTip" />
+                        <action id="0" name="Set spraying" sid="6463488001461914" type="BlueParticles">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="9388140291578174">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7221929659279298" type="System" />
+                <condition id="-10" name="For" sid="5277212308175412" type="System">
+                    <param id="0" name="Name">&quot;Inital Ball Count&quot;</param>
+                    <param id="1" name="Start index">0</param>
+                    <param id="2" name="End index">random(4)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="9035775790471892" type="System">
+                    <param id="0" name="Object to create">Ball</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">320</param>
+                    <param id="3" name="Y">240</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4896843180768257">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3487980026051173" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="3435923816800167" type="Ball">
+                    <param id="0" name="Gravity">0</param>
+                </action>
+                <action behavior="Physics" id="5" name="Apply impulse at angle" sid="8918848361942912" type="Ball">
+                    <param id="0" name="Impulse">1.5</param>
+                    <param id="1" name="Angle">floor(random(0,360))</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="8782701032826634" type="RedPaddleFamily">
+                    <param id="0" name="Pin to">Red1</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+                <action id="2" name="Stop" sid="4521576928509236" type="Blocks" />
+                <action behavior="Pin" id="0" name="Pin to object" sid="4624334510644299" type="BluePaddleFamily">
+                    <param id="0" name="Pin to">Blue1</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5490569635172939">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6828538866850061" type="System">
+                    <param id="0" name="Interval (seconds)">dt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="5532177976297748" type="BlueLaserTip">
+                    <param id="0" name="Object">BlueLaser</param>
+                    <param id="1" name="Image point (optional)">1</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="8046148331753777" type="RedLaserTip">
+                    <param id="0" name="Object">RedLaser</param>
+                    <param id="1" name="Image point (optional)">2</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="1930355054268261" type="BlueLaser">
+                    <param id="0" name="Object">Blue32</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="22550091928099" type="RedLaser">
+                    <param id="0" name="Object">Red32</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="-6" name="Set height" sid="4842195378289748" type="RedLaser">
+                    <param id="0" name="Height">RedPaddleFamily.Laser_Strength</param>
+                </action>
+                <action id="-6" name="Set height" sid="1081062554168646" type="BlueLaser">
+                    <param id="0" name="Height">BluePaddleFamily.Laser_Strength</param>
+                </action>
+                <action id="-7" name="Set size" sid="3359714633293501" type="BlueLaserTip">
+                    <param id="0" name="Width">BluePaddleFamily.Laser_Strength*2</param>
+                    <param id="1" name="Height">BluePaddleFamily.Laser_Strength*2</param>
+                </action>
+                <action id="-7" name="Set size" sid="3958092113488606" type="RedLaserTip">
+                    <param id="0" name="Width">RedPaddleFamily.Laser_Strength*2</param>
+                    <param id="1" name="Height">RedPaddleFamily.Laser_Strength*2</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="9877855948699374" type="RedParticles">
+                    <param id="0" name="Object">RedLaserTip</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="861164200952473" type="BlueParticles">
+                    <param id="0" name="Object">BlueLaserTip</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="3951809195645714" title="Ball Functions">
+            <sub-events>
+                <event-block sid="2002591731444693">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9135004757335507" type="Ball">
+                            <param id="0" name="Instance variable">owner</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="3153262986081941" type="Ball">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="2" name="Stop" sid="6124868084996417" type="Ball" />
+                    </actions>
+                </event-block>
+                <event-block sid="2549495698113796">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2541611063353469" type="Ball">
+                            <param id="0" name="Instance variable">owner</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Compare two values" sid="1999465475550981" type="System">
+                            <param id="0" name="First value">Ball.AnimationFrame</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="9631931019990304" type="Ball">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="2" name="Stop" sid="104530083864969" type="Ball" />
+                    </actions>
+                </event-block>
+                <event-block sid="6412482387748248">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2886751168449732" type="Ball">
+                            <param id="0" name="Instance variable">owner</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Compare two values" sid="5000543736071688" type="System">
+                            <param id="0" name="First value">Ball.AnimationFrame</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="8793941755065595" type="Ball">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="2" name="Stop" sid="7469325247220574" type="Ball" />
+                    </actions>
+                </event-block>
+                <event-block collapsed="1" sid="9056230158725141">
+                    <conditions>
+                        <condition id="-3" inverted="1" name="Is on-screen" sid="6524950544768324" type="Ball" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1795699900332992">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1291045224945199" type="Ball">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">BluePaddleFamily.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="7030074025021572" type="RedPaddleFamily">
+                                    <param id="0" name="Instance variable">Goals</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="1358753769033181" type="RedGoals">
+                                    <param id="0" name="Text">&quot;Goals: &quot;&amp; RedPaddleFamily.Goals</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="9884912150117532" type="System">
+                                    <param id="0" name="Object to create">BlueGoalParticles</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">0</param>
+                                    <param id="3" name="Y">200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9771801139015379">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="4551404702074844" type="Ball">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">RedPaddleFamily.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="3770129724138929" type="BluePaddleFamily">
+                                    <param id="0" name="Instance variable">Goals</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="9527443624866508" type="BlueGoals">
+                                    <param id="0" name="Text">&quot;Goals: &quot;&amp;BluePaddleFamily.Goals</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="1609909840164014" type="System">
+                                    <param id="0" name="Object to create">RedGoalParticles</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">643</param>
+                                    <param id="3" name="Y">204</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4381573081445717">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="3908758031245958" type="System">
+                                    <param id="0" name="First value">Ball.AnimationFrame</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="7045520410969104" type="System">
+                                    <param id="0" name="Object to create">BlueExplosion</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">(ViewportLeft(&quot;Background&quot;)&gt;Ball.X)?ViewportLeft(&quot;Background&quot;) +15:ViewportRight(&quot;Background&quot;) -15</param>
+                                    <param id="3" name="Y">Ball.Y</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="1388597042780851" type="BlueExplosion">
+                                    <param id="0" name="Width">0</param>
+                                    <param id="1" name="Height">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="9816662765839233" type="BlueExplosion">
+                                    <param id="0" name="Instance variable">cast</param>
+                                    <param id="1" name="Value">floor(random(100, 300))</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="2854073228188759" type="Ball" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="8044140594387791">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="526278394070687" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="3558793292516354" type="Ball" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4642246306343881">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="7639454303024292" type="Ball">
+                            <param id="0" name="Object">RedPaddleFamily</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="3819037904269912" type="Ball">
+                            <param id="0" name="Instance variable">owner</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="Physics" id="2" name="Apply force at angle" sid="2771620312272595" type="Ball">
+                            <param id="0" name="Force">0.2</param>
+                            <param id="1" name="Angle">self.Angle</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="846306284202316">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="1328640812443319" type="Ball">
+                            <param id="0" name="Object">BluePaddleFamily</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="672078940612795" type="Ball">
+                            <param id="0" name="Instance variable">owner</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action behavior="Physics" id="2" name="Apply force at angle" sid="5449985788372829" type="Ball">
+                            <param id="0" name="Force">0.2</param>
+                            <param id="1" name="Angle">self.Angle</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2483381209514081">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="7836282328306598" type="Ball">
+                            <param id="0" name="Object">Blocks</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="406884192378503" type="Blocks" />
+                    </actions>
+                    <sub-events>
+                        <comment>Bomb</comment>
+                        <event-block sid="2736840581861296">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="5123671716125746" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="8929672837599624" type="Ball">
+                                    <param id="0" name="Comparison">1</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7519971534342979" type="Ball">
+                                    <param id="0" name="Frame number">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Crazy Ball</comment>
+                        <event-block sid="2688317503365937">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="5060306058249097" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="8371534187554908" type="Ball">
+                                    <param id="0" name="Comparison">1</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
+                        <comment>Health</comment>
+                        <event-block collapsed="1" sid="9707350626624067">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="4827795108891389" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3952261424728405">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="8814431019291473" type="Ball">
+                                            <param id="0" name="Instance variable">owner</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="3" inverted="1" name="Compare frame" sid="8886157539979445" type="Ball">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="9880776707290755" type="RedPaddleFamily">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="7908662594443038" type="RedPaddleFamily">
+                                            <param id="0" name="Object">Ball</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="11" name="Set collisions enabled" sid="647300089693155" type="RedPaddleFamily">
+                                            <param id="0" name="Collisions">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="8019516591811497">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="639055991656841" type="Ball">
+                                            <param id="0" name="Instance variable">owner</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                        <condition id="3" inverted="1" name="Compare frame" sid="9162852158392154" type="Ball">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="7886472614566723" type="BluePaddleFamily">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="11" name="Set collisions enabled" sid="1847499922321446" type="BluePaddleFamily">
+                                            <param id="0" name="Collisions">1</param>
+                                        </action>
+                                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="3180823091454725" type="BluePaddleFamily">
+                                            <param id="0" name="Object">Ball</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Invisibility</comment>
+                        <event-block collapsed="1" sid="4654318132194371">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="8756898130955305" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6187683588070449">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="9651058147036146" type="Ball">
+                                            <param id="0" name="Instance variable">owner</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="3" inverted="1" name="Compare frame" sid="3889335521795699" type="Ball">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                </event-block>
+                                <event-block sid="3538683057921298">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="4825397332624565" type="Ball">
+                                            <param id="0" name="Instance variable">owner</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                        <condition id="3" inverted="1" name="Compare frame" sid="8763889750695948" type="Ball">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Laser</comment>
+                        <event-block collapsed="1" sid="6860442306756741">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="7622948661967243" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="8939106926968594">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="4745196613670111" type="Ball">
+                                            <param id="0" name="Instance variable">owner</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="972100214742768" type="RedPaddleFamily">
+                                            <param id="0" name="Instance variable">Laser_Strength</param>
+                                            <param id="1" name="Value">(Self.Laser_Strength*2 &gt;= 80)?80:Self.Laser_Strength*2</param>
+                                        </action>
+                                        <action id="5" name="Set size" sid="391781675768757" type="RedParticles">
+                                            <param id="0" name="Size">RedPaddleFamily.Laser_Strength / 2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9227962225841591">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="2035805418191576" type="Ball">
+                                            <param id="0" name="Instance variable">owner</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="8612232316212096" type="BluePaddleFamily">
+                                            <param id="0" name="Instance variable">Laser_Strength</param>
+                                            <param id="1" name="Value">(Self.Laser_Strength*2 &gt;= 80)?80:Self.Laser_Strength*2</param>
+                                        </action>
+                                        <action id="5" name="Set size" sid="5982711886095977" type="BlueParticles">
+                                            <param id="0" name="Size">BluePaddleFamily.Laser_Strength/2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Destroy</comment>
+                        <event-block sid="2851778328368959">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="8547708582253004" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">5</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="5320927139381387" type="System">
+                                    <param id="0" name="First value">Ball.Count</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Second value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="6402612609802662" type="Ball" />
+                            </actions>
+                        </event-block>
+                        <comment>Create</comment>
+                        <event-block sid="5587123582427079">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="9050400560270876" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">6</param>
+                                </condition>
+                                <condition id="-10" name="For" sid="8614775051776667" type="System">
+                                    <param id="0" name="Name">&quot;Add Balls&quot;</param>
+                                    <param id="1" name="Start index">0</param>
+                                    <param id="2" name="End index">random(4)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="4507598978502766" type="Ball">
+                                    <param id="0" name="Object">Ball</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="7624959965430231" type="Ball">
+                                    <param id="0" name="Force">random(0.5,1.5)</param>
+                                    <param id="1" name="Angle">floor(random(0,360))</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Speed Down</comment>
+                        <event-block sid="5083252175172582">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="8641856073588917" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="9751523072813252" type="Ball">
+                                    <param id="0" name="Force">-1</param>
+                                    <param id="1" name="Angle">self.Angle</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Speed Up</comment>
+                        <event-block sid="8841704723767379">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="5045117634187518" type="Blocks">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="7091784029139338" type="Ball">
+                                    <param id="0" name="Force">1</param>
+                                    <param id="1" name="Angle">self.Angle</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="2751993253752504" title="Clock">
+            <sub-events>
+                <event-block sid="1716408751995385">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9992509616276072" type="Clock">
+                            <param id="0" name="Instance variable">minutes</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="4042864246863776" type="Clock">
+                            <param id="0" name="Instance variable">running</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8612735528145432">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="890500986026518" type="Clock">
+                            <param id="0" name="Instance variable">seconds</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="4507125822889262" type="Clock">
+                            <param id="0" name="Instance variable">minutes</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="2789915363791251" type="Clock">
+                            <param id="0" name="Instance variable">seconds</param>
+                            <param id="1" name="Value">60</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4712584152864686">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="9273097391246977" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="9945579863273279" type="Clock">
+                            <param id="0" name="Instance variable">running</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="2482288559702034" type="Clock">
+                            <param id="0" name="Instance variable">seconds</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="9604897407622655" type="Clock">
+                            <param id="0" name="Text">Clock.minutes &amp; &quot; : &quot; &amp; (Clock.seconds &lt; 10 ? &quot;0&quot; : &quot;&quot;) &amp; Clock.seconds</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="7714456305824621" type="Blocks">
+                            <param id="0" name="Instance variable">time</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="3951404912564962">
+            <conditions>
+                <condition id="-18" name="On created" sid="7266330473310289" type="Blocks" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6326615664774586" type="Blocks">
+                    <param id="0" name="Frame number">floor(random(0,9))</param>
+                </action>
+                <action id="2" name="Stop" sid="9623422950672269" type="Blocks" />
+            </actions>
+        </event-block>
+        <event-block sid="9318738153874922">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6927028230563311" type="System">
+                    <param id="0" name="Interval (seconds)">random(1,10)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2649502281520706">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="5274428430101347" type="System">
+                            <param id="0" name="First value">Blocks.Count</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="419817314986447" type="System">
+                            <param id="0" name="Object to create">Blocks</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">floor(random(95, 537))</param>
+                            <param id="3" name="Y">floor(random(17, 426))</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2001219778222724">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="8475494910572779" type="Blocks">
+                    <param id="0" name="Instance variable">time</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9018488769903814" type="Blocks" />
+            </actions>
+        </event-block>
+        <event-block sid="3851419810957859">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="4907407602024111" type="System">
+                    <param id="0" name="First value">Ball.Count</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7508015106338976" type="Clock">
+                    <param id="0" name="Text">&quot;Game Over - &quot;  &amp;  (BluePaddleFamily.Goals &gt; RedPaddleFamily.Goals? &quot;Blue&quot;: &quot;Red&quot;) &amp; &quot;Wins&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="426288652515689">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="9284032348701195" type="System">
+                    <param id="0" name="First value">RedPaddleFamily.Opacity</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="5972092585595166" type="Clock">
+                    <param id="0" name="Text">&quot;Red is Dead&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block collapsed="1" sid="1574754672936123">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5526630155116755" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5218567980713193">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="6423499320334797" type="BlueExplosion" />
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Rotate clockwise" sid="8806892410789286" type="BlueExplosion">
+                            <param id="0" name="Degrees">self.angle +1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="3624026352453944">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="4850275124298956" type="BlueExplosion">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Height">self.cast</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="619130479355506" type="BlueExplosion">
+                                    <param id="0" name="Instance variable">max</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6765751799960496">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="9754710828860539" type="BlueExplosion">
+                                    <param id="0" name="Instance variable">max</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="2298609760566866" type="BlueExplosion">
+                                    <param id="0" name="Width">Self.Width -3</param>
+                                    <param id="1" name="Height">Self.Height -3</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="9733550777722298">
+                                    <conditions>
+                                        <condition id="-6" name="Compare height" sid="166365610829261" type="BlueExplosion">
+                                            <param id="0" name="Comparison">2</param>
+                                            <param id="1" name="Height">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="5088817127388471" type="BlueExplosion" />
+                                        <action id="-13" name="Set boolean" sid="8448676733399842" type="BlueExplosion">
+                                            <param id="0" name="Instance variable">max</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6000809859876425">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="3020874050508817" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="4744686732021075" type="BlueExplosion">
+                                    <param id="0" name="Width">Self.Width +3</param>
+                                    <param id="1" name="Height">Self.Height +3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8731419242050228">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1002645432388764" type="BlueExplosion">
+                    <param id="0" name="Object">BluePaddleFamily</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="6133270834199562" type="BluePaddleFamily">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="1257832234648221" type="BluePaddleFamily">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action behavior="Physics" id="23" name="Enable/disable collisions" sid="5691802408402533" type="BluePaddleFamily">
+                    <param id="0" name="Object">Ball</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7761909976627048">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4989228805416351" type="BlueExplosion">
+                    <param id="0" name="Object">RedPaddleFamily</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="6304810515100209" type="RedPaddleFamily">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="8182955644470256" type="RedPaddleFamily">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action behavior="Physics" id="23" name="Enable/disable collisions" sid="6725725098310122" type="RedPaddleFamily">
+                    <param id="0" name="Object">Ball</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="9963872481820846">
+            <conditions>
+                <condition behavior="Physics" id="1" name="Compare velocity" sid="7723935305219228" type="Ball">
+                    <param id="0" name="Which">2</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">100</param>
+                </condition>
+                <condition behavior="Physics" id="0" name="Is sleeping" sid="9347313413923464" type="Ball" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="5" name="Apply impulse at angle" sid="3383020676278218" type="Ball">
+                    <param id="0" name="Impulse">0.1</param>
+                    <param id="1" name="Angle">self.Angle</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7806505551104053">
+            <conditions>
+                <condition behavior="Physics" id="1" name="Compare velocity" sid="9280168988592301" type="Ball">
+                    <param id="0" name="Which">2</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="3521216323005853" type="Log">
+                    <param id="0" name="Text">&quot;Too Fast&quot;</param>
+                </action>
+                <action behavior="Physics" id="2" name="Apply force at angle" sid="4920277524256263" type="Ball">
+                    <param id="0" name="Force">-5</param>
+                    <param id="1" name="Angle">self.Angle</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2805810307164986">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="8278584160422947" type="BluePaddleFamily">
+                    <param id="0" name="Object">SolidBorder</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="4423465067736664" type="Log">
+                    <param id="0" name="Text">&quot;overlap&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
