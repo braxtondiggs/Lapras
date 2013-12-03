@@ -7,11 +7,14 @@
         <variable constant="0" name="RedControls" sid="5611653803234109" static="0" type="text">CPU</variable>
         <variable constant="0" name="reset" sid="4859158303193307" static="0" type="number">0</variable>
         <variable constant="0" name="start" sid="4174151230178114" static="0" type="number">1</variable>
+        <variable constant="0" name="bomb_running" sid="3594464490307027" static="0" type="number">1</variable>
+        <variable constant="0" name="bomb_active" sid="5898275899838219" static="0" type="number">0</variable>
         <variable constant="0" name="paused" sid="5132803171196301" static="0" type="number">0</variable>
-        <variable constant="0" name="Layout" sid="8977436153755386" static="0" type="number">0</variable>
+        <variable constant="0" name="pongality" sid="1800610931125092" static="0" type="number">0</variable>
+        <variable constant="0" name="Layout" sid="8977436153755386" static="0" type="number">1</variable>
         <event-group collapsed="1" description="" sid="8500847926461144" title="CPUControls">
             <sub-events>
-                <event-block any="1" sid="1606425836473893">
+                <event-block any="1" collapsed="1" sid="1606425836473893">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="3440651560459638" type="System">
                             <param id="0" name="Variable">RedControls</param>
@@ -143,9 +146,9 @@
                                 <event-block sid="6200432356407518">
                                     <conditions>
                                         <condition id="-21" name="Is between values" sid="485320595315864" type="System">
-                                            <param id="0" name="Value">BluePaddleFamily.Y +64</param>
+                                            <param id="0" name="Value">BluePaddleFamily.Y +71</param>
                                             <param id="1" name="Lower bound">RedPaddleFamily.Y</param>
-                                            <param id="2" name="Upper bound">RedPaddleFamily.Y +128</param>
+                                            <param id="2" name="Upper bound">RedPaddleFamily.Y +142</param>
                                         </condition>
                                         <condition id="-8" name="Compare two values" sid="4249840152285346" type="System">
                                             <param id="0" name="First value">floor(random(1,60))</param>
@@ -379,7 +382,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="8153413772391827" title="Red Laser">
+        <event-group description="" sid="8153413772391827" title="Red Laser">
             <sub-events>
                 <event-block sid="9056757208091085">
                     <conditions>
@@ -445,7 +448,20 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block collapsed="1" sid="516886412268544">
+                <event-block disabled="1" sid="6817786931082631">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5889658781879852" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="2996249970473827" type="Audio">
+                            <param id="0" name="Audio file">laser-recharge</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">50</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="516886412268544">
                     <conditions>
                         <condition id="-8" name="Is boolean instance variable set" sid="1231751556662966" type="RedPaddleFamily">
                             <param id="0" name="Instance variable">Shoot</param>
@@ -598,7 +614,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="6896064362676364" title="Blue Laser">
+        <event-group description="" sid="6896064362676364" title="Blue Laser">
             <sub-events>
                 <event-block sid="128210747516322">
                     <conditions>
@@ -663,6 +679,19 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+                <event-block disabled="1" sid="1219758692093787">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="9041363200036568" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="1920576533065004" type="Audio">
+                            <param id="0" name="Audio file">laser-recharge</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">50</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="7664492275031085">
                     <conditions>
@@ -817,7 +846,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block collapsed="1" sid="4365405062130369">
+        <event-block sid="4365405062130369">
             <conditions>
                 <condition id="-9" inverted="1" name="Is visible" sid="9688687880439885" type="RedPaddleFamily" />
             </conditions>
@@ -835,6 +864,10 @@
                         <action id="-13" name="Set boolean" sid="5335709666548512" type="RedPaddleFamily">
                             <param id="0" name="Instance variable">running</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="5466662953935852" type="System">
+                            <param id="0" name="Variable">pongality</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="8413579382914772" type="System">
                             <param id="0" name="Seconds">2.0</param>
@@ -861,7 +894,7 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block collapsed="1" sid="5947832975058664">
+        <event-block sid="5947832975058664">
             <conditions>
                 <condition id="-9" inverted="1" name="Is visible" sid="5524746361341463" type="BluePaddleFamily" />
             </conditions>
@@ -879,6 +912,10 @@
                         <action id="-13" name="Set boolean" sid="6951659861366543" type="BluePaddleFamily">
                             <param id="0" name="Instance variable">running</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6299483187132291" type="System">
+                            <param id="0" name="Variable">pongality</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="6830379008444931" type="System">
                             <param id="0" name="Seconds">2.0</param>
@@ -1376,8 +1413,8 @@
                                                     <param id="0" name="Instance variable">running</param>
                                                     <param id="1" name="Value">0</param>
                                                 </action>
-                                                <action id="-13" name="Set boolean" sid="1112429001706566" type="Blocks">
-                                                    <param id="0" name="Instance variable">running</param>
+                                                <action id="-9" name="Set value" sid="1112429001706566" type="System">
+                                                    <param id="0" name="Variable">bomb_running</param>
                                                     <param id="1" name="Value">0</param>
                                                 </action>
                                                 <action id="-9" name="Set value" sid="3846257730479506" type="System">
@@ -1476,10 +1513,6 @@
                                                     <param id="0" name="Instance variable">running</param>
                                                     <param id="1" name="Value">0</param>
                                                 </action>
-                                                <action id="-13" name="Set boolean" sid="5554335239945232" type="Blocks">
-                                                    <param id="0" name="Instance variable">running</param>
-                                                    <param id="1" name="Value">0</param>
-                                                </action>
                                                 <action id="-9" name="Set value" sid="36320355520269" type="System">
                                                     <param id="0" name="Variable">reset</param>
                                                     <param id="1" name="Value">2</param>
@@ -1502,6 +1535,10 @@
                                                 </action>
                                                 <action id="0" name="Set text" sid="400666820735311" type="BlueGoals">
                                                     <param id="0" name="Text">BluePaddleFamily.Goals</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="4501064437908155" type="System">
+                                                    <param id="0" name="Variable">bomb_running</param>
+                                                    <param id="1" name="Value">0</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -1916,13 +1953,10 @@
             <sub-events>
                 <event-block sid="2649502281520706">
                     <conditions>
-                        <condition id="-8" name="Compare two values" sid="5274428430101347" type="System">
-                            <param id="0" name="First value">Blocks.Count</param>
-                            <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Second value">10</param>
-                        </condition>
-                        <condition id="-8" name="Is boolean instance variable set" sid="7918757084780699" type="Blocks">
-                            <param id="0" name="Instance variable">running</param>
+                        <condition id="-14" name="Compare variable" sid="7918757084780699" type="System">
+                            <param id="0" name="Variable">bomb_running</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -1930,23 +1964,23 @@
                             <param id="0" name="Object to create">Blocks</param>
                             <param id="1" name="Layer">&quot;Background&quot;</param>
                             <param id="2" name="X">floor(random(ViewportLeft(&quot;Background&quot;) + 100, ViewportRight(&quot;Background&quot;) - 100))</param>
-                            <param id="3" name="Y">floor(random(ViewportTop(&quot;Background&quot;) - 45 , ViewportBottom(&quot;Background&quot;) - 45))</param>
+                            <param id="3" name="Y">floor(random(ViewportTop(&quot;Background&quot;) +55 , ViewportBottom(&quot;Background&quot;) - 55))</param>
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="2001219778222724">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8475494910572779" type="Blocks">
+                            <param id="0" name="Instance variable">time</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="9018488769903814" type="Blocks" />
+                    </actions>
+                </event-block>
             </sub-events>
-        </event-block>
-        <event-block sid="2001219778222724">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="8475494910572779" type="Blocks">
-                    <param id="0" name="Instance variable">time</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="9018488769903814" type="Blocks" />
-            </actions>
         </event-block>
         <event-block sid="8731419242050228">
             <conditions>
@@ -2101,8 +2135,8 @@
                     <param id="0" name="Instance variable">running</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="1016886602395894" type="Blocks">
-                    <param id="0" name="Instance variable">running</param>
+                <action id="-9" name="Set value" sid="1071230515328629" type="System">
+                    <param id="0" name="Variable">bomb_running</param>
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="2979038751566126" type="Blocks" />
@@ -2150,6 +2184,10 @@
                 <action id="-9" name="Set value" sid="4336354510317658" type="System">
                     <param id="0" name="Variable">start</param>
                     <param id="1" name="Value">0</param>
+                </action>
+                <action disabled="1" id="-28" name="Set canvas size" sid="5721243100738756" type="System">
+                    <param id="0" name="Width">0</param>
+                    <param id="1" name="Height">0</param>
                 </action>
             </actions>
             <sub-events>
@@ -2213,7 +2251,7 @@
                 <action id="-9" name="Destroy" sid="9188386609036832" type="Explosion" />
             </actions>
         </event-block>
-        <event-block collapsed="1" sid="9827115962934243">
+        <event-block sid="9827115962934243">
             <conditions>
                 <condition id="-1" name="Every tick" sid="6500747146666202" type="System" />
             </conditions>
