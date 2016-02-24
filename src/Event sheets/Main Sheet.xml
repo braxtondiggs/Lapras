@@ -8,13 +8,14 @@
         <variable constant="0" name="reset" sid="4859158303193307" static="0" type="number">0</variable>
         <variable constant="0" name="start" sid="4174151230178114" static="0" type="number">1</variable>
         <variable constant="0" name="bomb_running" sid="3594464490307027" static="0" type="number">1</variable>
+        <variable constant="0" name="isMuted" sid="8063130951950261" static="0" type="number">0</variable>
         <variable constant="0" name="bomb_active" sid="5898275899838219" static="0" type="number">0</variable>
         <variable constant="0" name="paused" sid="5132803171196301" static="0" type="number">0</variable>
         <variable constant="0" name="pongality" sid="1800610931125092" static="0" type="number">0</variable>
         <variable constant="0" name="Layout" sid="8977436153755386" static="0" type="number">1</variable>
-        <event-group collapsed="1" description="" sid="8500847926461144" title="CPUControls">
+        <event-group description="" sid="8500847926461144" title="CPUControls">
             <sub-events>
-                <event-block any="1" collapsed="1" sid="1606425836473893">
+                <event-block any="1" sid="1606425836473893">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="3440651560459638" type="System">
                             <param id="0" name="Variable">RedControls</param>
@@ -243,7 +244,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="9922084588528039" title="UserControls">
+        <event-group description="" sid="9922084588528039" title="UserControls">
             <sub-events>
                 <event-block sid="3583599411079238">
                     <conditions>
@@ -1021,6 +1022,12 @@
                 <action id="-3" name="Set position" sid="7446284123358729" type="PausePlay">
                     <param id="0" name="X">ViewportRight(&quot;Background&quot;)-15</param>
                     <param id="1" name="Y">ViewportBottom(&quot;Background&quot;) -15</param>
+                </action>
+                <action id="0" name="Play" sid="294820869003343" type="Audio">
+                    <param id="0" name="Audio file">djfroyd__techno-drum-loop</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Intro Audio&quot;</param>
                 </action>
             </actions>
             <sub-events>
@@ -2043,6 +2050,20 @@
                     <param id="0" name="Variable">BlueControls</param>
                     <param id="1" name="Value">&quot;User&quot;</param>
                 </action>
+                <action id="33" name="Stop all" sid="6748528928293432" type="Audio" />
+                <action id="22" name="Set paused" sid="6203298566156486" type="Audio">
+                    <param id="0" name="Tag">&quot;Intro Audio&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="6" name="Stop" sid="1303634605492399" type="Audio">
+                    <param id="0" name="Tag">&quot;Intro Audio&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="8169888993605617" type="Audio">
+                    <param id="0" name="Audio file">alveg__justkidding</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;main audio&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block any="1" sid="5483475952759407">
@@ -2073,6 +2094,20 @@
                 <action id="-9" name="Set value" sid="9294489253418784" type="System">
                     <param id="0" name="Variable">RedControls</param>
                     <param id="1" name="Value">&quot;User&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="6465494018054689" type="Audio">
+                    <param id="0" name="Tag">&quot;Intro Audio&quot;</param>
+                </action>
+                <action id="22" name="Set paused" sid="7001258577781063" type="Audio">
+                    <param id="0" name="Tag">&quot;Intro Audio&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="33" name="Stop all" sid="1347413886547286" type="Audio" />
+                <action id="0" name="Play" sid="6288465432175391" type="Audio">
+                    <param id="0" name="Audio file">alveg__justkidding</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;main audio&quot;</param>
                 </action>
             </actions>
         </event-block>

@@ -8,10 +8,8 @@
     <author-website>http://lazerpong.com</author-website>
     <app-id>com.cymbit.lazerpong</app-id>
     <unique-id>uryjzibbt8ns</unique-id>
-    <saved-with-version>15200</saved-with-version>
+    <saved-with-version>22100</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="CJSAds" version="1">CocoonJS</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
@@ -19,6 +17,8 @@
         <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
@@ -38,6 +38,7 @@
         <height>480</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
     <first-layout>Main Game</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
@@ -51,11 +52,11 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use iOS retina display">All devices</prop>
     </configuration-settings>
-    <object-folder expanded="1">
-        <object-folder expanded="0" name="Blue Paddle">
+    <object-folder>
+        <object-folder name="Blue Paddle">
             <object-type name="Blue1" sid="9686970235828238">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5006549852007044" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
@@ -63,7 +64,7 @@
             </object-type>
             <object-type name="Blue10" sid="1946862914338367">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3718821573947367" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -78,7 +79,7 @@
             </object-type>
             <object-type name="Blue11" sid="857066524289222">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9393911749981699" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -93,7 +94,7 @@
             </object-type>
             <object-type name="Blue12" sid="3441107538922868">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5718868546214478" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -108,7 +109,7 @@
             </object-type>
             <object-type name="Blue13" sid="8405512243301769">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1823760420137344" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -123,7 +124,7 @@
             </object-type>
             <object-type name="Blue14" sid="2887124415158975">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9654108438370104" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -138,7 +139,7 @@
             </object-type>
             <object-type name="Blue15" sid="1997110688366708">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2324962007400136" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -153,7 +154,7 @@
             </object-type>
             <object-type name="Blue16" sid="9198769801314171">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9918426627091101" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -168,7 +169,7 @@
             </object-type>
             <object-type name="Blue17" sid="1690814285118133">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5275437092924941" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -183,7 +184,7 @@
             </object-type>
             <object-type name="Blue18" sid="5545476276151258">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5508275022875081" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -198,7 +199,7 @@
             </object-type>
             <object-type name="Blue19" sid="8498455768507724">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6140367133456621" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -213,7 +214,7 @@
             </object-type>
             <object-type name="Blue2" sid="6597613007832925">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5822717567563222" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
@@ -221,7 +222,7 @@
             </object-type>
             <object-type name="Blue20" sid="2362708879657551">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2986183512790853" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -236,7 +237,7 @@
             </object-type>
             <object-type name="Blue21" sid="9868122990170193">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8079605439143385" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -251,7 +252,7 @@
             </object-type>
             <object-type name="Blue22" sid="4223798413356851">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8274847862753711" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -266,7 +267,7 @@
             </object-type>
             <object-type name="Blue23" sid="7796924239656097">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="80356467843006" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -281,7 +282,7 @@
             </object-type>
             <object-type name="Blue24" sid="9045508802457838">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9276745004986683" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -296,7 +297,7 @@
             </object-type>
             <object-type name="Blue25" sid="1174537419086013">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6640414089212638" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -311,7 +312,7 @@
             </object-type>
             <object-type name="Blue26" sid="4079977386931408">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1733661920012596" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -326,7 +327,7 @@
             </object-type>
             <object-type name="Blue27" sid="6784565772938077">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2561530740921403" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -341,7 +342,7 @@
             </object-type>
             <object-type name="Blue28" sid="2124349610786753">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3850540503228102" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -356,7 +357,7 @@
             </object-type>
             <object-type name="Blue29" sid="2071460620540621">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4885906100420346" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -371,7 +372,7 @@
             </object-type>
             <object-type name="Blue3" sid="843077833794212">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4137597699237584" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
@@ -379,7 +380,7 @@
             </object-type>
             <object-type name="Blue30" sid="9335114790120742">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6825792148638057" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -394,7 +395,7 @@
             </object-type>
             <object-type name="Blue31" sid="8720163454645549">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3585427901062043" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -409,7 +410,7 @@
             </object-type>
             <object-type name="Blue32" sid="7160373545955103">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8240527539614494" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -424,7 +425,7 @@
             </object-type>
             <object-type name="Blue33" sid="3718486454904185">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4362637977316282" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -439,7 +440,7 @@
             </object-type>
             <object-type name="Blue34" sid="957858392728637">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9252167171690232" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -454,7 +455,7 @@
             </object-type>
             <object-type name="Blue35" sid="241721947937502">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8220634184410143" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -469,7 +470,7 @@
             </object-type>
             <object-type name="Blue36" sid="1827109753439063">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4363730443408041" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -484,7 +485,7 @@
             </object-type>
             <object-type name="Blue37" sid="300414465763284">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5282545089985119" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -499,7 +500,7 @@
             </object-type>
             <object-type name="Blue38" sid="5906724138814768">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4434742222208272" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -514,7 +515,7 @@
             </object-type>
             <object-type name="Blue39" sid="9581185897864156">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="360838268063881" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -529,7 +530,7 @@
             </object-type>
             <object-type name="Blue4" sid="2352652921502584">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7266110835232282" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -544,7 +545,7 @@
             </object-type>
             <object-type name="Blue40" sid="5708522838988059">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3061480952021845" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -559,7 +560,7 @@
             </object-type>
             <object-type name="Blue41" sid="2818675074232355">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7117035656000859" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -574,7 +575,7 @@
             </object-type>
             <object-type name="Blue42" sid="5669293474566278">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9549684360263725" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -589,7 +590,7 @@
             </object-type>
             <object-type name="Blue43" sid="4129500509245583">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7273336414416203" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -604,7 +605,7 @@
             </object-type>
             <object-type name="Blue44" sid="3650298546178784">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9589476193835139" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -619,7 +620,7 @@
             </object-type>
             <object-type name="Blue45" sid="8942885103132747">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5924124948162008" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -634,7 +635,7 @@
             </object-type>
             <object-type name="Blue46" sid="342897015547227">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3845897615707566" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -649,7 +650,7 @@
             </object-type>
             <object-type name="Blue47" sid="8578129801597902">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="368940837068312" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -664,7 +665,7 @@
             </object-type>
             <object-type name="Blue48" sid="9522182388088977">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262193879077994" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -679,7 +680,7 @@
             </object-type>
             <object-type name="Blue49" sid="1992517826494809">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1699758304028621" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -694,7 +695,7 @@
             </object-type>
             <object-type name="Blue5" sid="2838369259922794">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1054807681894145" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -709,7 +710,7 @@
             </object-type>
             <object-type name="Blue50" sid="7056126605264528">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6786821793275155" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -724,7 +725,7 @@
             </object-type>
             <object-type name="Blue51" sid="629899785167277">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2665124535556449" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -739,7 +740,7 @@
             </object-type>
             <object-type name="Blue52" sid="164949431870019">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4703740128941256" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -754,7 +755,7 @@
             </object-type>
             <object-type name="Blue53" sid="3300946161321527">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1680661549143385" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -769,7 +770,7 @@
             </object-type>
             <object-type name="Blue54" sid="5756871551368445">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9002088923435159" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -784,7 +785,7 @@
             </object-type>
             <object-type name="Blue55" sid="9581669495456261">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1011433252576143" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -799,7 +800,7 @@
             </object-type>
             <object-type name="Blue56" sid="8583618114645851">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4735988591647206" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -814,7 +815,7 @@
             </object-type>
             <object-type name="Blue57" sid="3738170184364718">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8901997498442149" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -829,7 +830,7 @@
             </object-type>
             <object-type name="Blue58" sid="6843976223001835">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9574131285855056" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -844,7 +845,7 @@
             </object-type>
             <object-type name="Blue59" sid="3263207437091379">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5691522763447234" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -859,7 +860,7 @@
             </object-type>
             <object-type name="Blue6" sid="7351348435966245">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9153248762989975" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -874,7 +875,7 @@
             </object-type>
             <object-type name="Blue60" sid="7576471105110786">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1530361513667368" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -889,7 +890,7 @@
             </object-type>
             <object-type name="Blue61" sid="1946127208613164">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3571518297303454" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -904,7 +905,7 @@
             </object-type>
             <object-type name="Blue62" sid="5215132159590209">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="16796503398734" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -919,7 +920,7 @@
             </object-type>
             <object-type name="Blue63" sid="1042213563231515">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5423541323995031" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -934,7 +935,7 @@
             </object-type>
             <object-type name="Blue64" sid="1567161566066355">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5243838921799644" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -949,7 +950,7 @@
             </object-type>
             <object-type name="Blue7" sid="6509391199747154">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7854388990923743" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -964,7 +965,7 @@
             </object-type>
             <object-type name="Blue8" sid="4015989599459564">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7629280067401698" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -979,7 +980,7 @@
             </object-type>
             <object-type name="Blue9" sid="247766698243475">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8094440656819783" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -994,7 +995,7 @@
             </object-type>
             <object-type name="Blue65" sid="5108400701118197">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2495674606332301" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1009,7 +1010,7 @@
             </object-type>
             <object-type name="Blue66" sid="5064445467469612">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3105837786641649" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1024,7 +1025,7 @@
             </object-type>
             <object-type name="Blue67" sid="1738117601873187">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1352451228620791" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1039,7 +1040,7 @@
             </object-type>
             <object-type name="Blue68" sid="1784362302305179">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6238228312133779" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1054,7 +1055,7 @@
             </object-type>
             <object-type name="Blue69" sid="3199065945741523">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3622389624797103" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1069,7 +1070,7 @@
             </object-type>
             <object-type name="Blue70" sid="8978589823577453">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9177552591153996" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
@@ -1077,17 +1078,17 @@
             </object-type>
             <object-type name="Blue71" sid="4288516324423867">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6402751452340848" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder expanded="0" name="Red Paddle">
+        <object-folder name="Red Paddle">
             <object-type name="Red1" sid="7561223502384822">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8532596905024235" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1102,7 +1103,7 @@
             </object-type>
             <object-type name="Red10" sid="7571566982135048">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716047298820942" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1117,7 +1118,7 @@
             </object-type>
             <object-type name="Red11" sid="8608665744899572">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546904516485293" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1132,7 +1133,7 @@
             </object-type>
             <object-type name="Red12" sid="1071496388894347">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2385039177942575" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1147,7 +1148,7 @@
             </object-type>
             <object-type name="Red13" sid="1106559302470552">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5786937219773557" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1162,7 +1163,7 @@
             </object-type>
             <object-type name="Red14" sid="1960113681806336">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5106238328909802" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1177,7 +1178,7 @@
             </object-type>
             <object-type name="Red15" sid="8194733858593262">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5567665571927853" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1192,7 +1193,7 @@
             </object-type>
             <object-type name="Red16" sid="8761725232327473">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8569682446599028" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1207,7 +1208,7 @@
             </object-type>
             <object-type name="Red17" sid="8989731930875526">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4741997674604081" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1222,7 +1223,7 @@
             </object-type>
             <object-type name="Red18" sid="7086776382505939">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4207422979785156" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1237,7 +1238,7 @@
             </object-type>
             <object-type name="Red19" sid="4275366959402938">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3170456699164859" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1252,7 +1253,7 @@
             </object-type>
             <object-type name="Red2" sid="3882168738229989">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7435683706202507" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
@@ -1260,7 +1261,7 @@
             </object-type>
             <object-type name="Red20" sid="9449677918124195">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8116054324764955" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1275,7 +1276,7 @@
             </object-type>
             <object-type name="Red21" sid="2178255092917843">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8870170201202443" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1290,7 +1291,7 @@
             </object-type>
             <object-type name="Red22" sid="3999664146833355">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2086357806035048" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1305,7 +1306,7 @@
             </object-type>
             <object-type name="Red23" sid="663936001235551">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4637242818929433" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1320,7 +1321,7 @@
             </object-type>
             <object-type name="Red24" sid="4159302491396452">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="949768462332891" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1335,7 +1336,7 @@
             </object-type>
             <object-type name="Red25" sid="5254637519241441">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4741714003094979" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1350,7 +1351,7 @@
             </object-type>
             <object-type name="Red26" sid="971856648677494">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7679940654083706" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1365,7 +1366,7 @@
             </object-type>
             <object-type name="Red27" sid="8296193186759391">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5113635076045662" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1380,7 +1381,7 @@
             </object-type>
             <object-type name="Red28" sid="4497513711249611">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4110394033427456" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1395,7 +1396,7 @@
             </object-type>
             <object-type name="Red29" sid="9867153232110159">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4272043987710376" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1410,7 +1411,7 @@
             </object-type>
             <object-type name="Red3" sid="5442335588609863">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994867426623591" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1425,7 +1426,7 @@
             </object-type>
             <object-type name="Red30" sid="7657654901407923">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7196979851456765" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1440,7 +1441,7 @@
             </object-type>
             <object-type name="Red31" sid="1252809098933114">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7495782552000994" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1455,7 +1456,7 @@
             </object-type>
             <object-type name="Red32" sid="6800102653304391">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9423714507250531" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1470,7 +1471,7 @@
             </object-type>
             <object-type name="Red33" sid="7649738013271377">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5649832816738493" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1485,7 +1486,7 @@
             </object-type>
             <object-type name="Red34" sid="5283348036118816">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3367680225460656" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1500,7 +1501,7 @@
             </object-type>
             <object-type name="Red35" sid="7365212288707096">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4193841870879883" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1515,7 +1516,7 @@
             </object-type>
             <object-type name="Red36" sid="3496117942781371">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4060438041425056" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1530,7 +1531,7 @@
             </object-type>
             <object-type name="Red37" sid="1253777946179516">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9160240649330584" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1545,7 +1546,7 @@
             </object-type>
             <object-type name="Red38" sid="8496715846531313">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5748587041635608" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1560,7 +1561,7 @@
             </object-type>
             <object-type name="Red39" sid="1357102528048872">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1288349961819148" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1575,7 +1576,7 @@
             </object-type>
             <object-type name="Red4" sid="6901879926513073">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1868146753019459" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1590,7 +1591,7 @@
             </object-type>
             <object-type name="Red40" sid="8374184886397645">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3974514559604147" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1605,7 +1606,7 @@
             </object-type>
             <object-type name="Red41" sid="3999940255195859">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5400045049437699" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1620,7 +1621,7 @@
             </object-type>
             <object-type name="Red42" sid="3902796534518862">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6832916657205609" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1635,7 +1636,7 @@
             </object-type>
             <object-type name="Red43" sid="5721496718792591">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8477387956464878" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1650,7 +1651,7 @@
             </object-type>
             <object-type name="Red44" sid="1438245814476146">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1536177766432766" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1665,7 +1666,7 @@
             </object-type>
             <object-type name="Red46" sid="7693642919489473">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2243343743364288" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1680,7 +1681,7 @@
             </object-type>
             <object-type name="Red45" sid="2044907984859844">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2932752302091886" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1695,7 +1696,7 @@
             </object-type>
             <object-type name="Red47" sid="5709743281164872">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2405739448401439" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1710,7 +1711,7 @@
             </object-type>
             <object-type name="Red48" sid="3703336282036433">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4679973754520407" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1725,7 +1726,7 @@
             </object-type>
             <object-type name="Red49" sid="6071874464251401">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9835445932971821" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1740,7 +1741,7 @@
             </object-type>
             <object-type name="Red5" sid="6243466657361328">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2374665892723536" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1755,7 +1756,7 @@
             </object-type>
             <object-type name="Red50" sid="632515414871984">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8829967573656475" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1770,7 +1771,7 @@
             </object-type>
             <object-type name="Red51" sid="6305946343959555">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3945865119806433" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1785,7 +1786,7 @@
             </object-type>
             <object-type name="Red52" sid="1542810464546681">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7137268282947504" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1800,7 +1801,7 @@
             </object-type>
             <object-type name="Red53" sid="7123240148175204">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5927739205842744" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1815,7 +1816,7 @@
             </object-type>
             <object-type name="Red54" sid="485683981051929">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3451285373003973" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1830,7 +1831,7 @@
             </object-type>
             <object-type name="Red55" sid="4576673617661281">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2185919128254417" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1845,7 +1846,7 @@
             </object-type>
             <object-type name="Red56" sid="7267899210282279">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7036466329211652" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1860,7 +1861,7 @@
             </object-type>
             <object-type name="Red57" sid="8358926184802275">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4219241427197038" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1875,7 +1876,7 @@
             </object-type>
             <object-type name="Red58" sid="9265055505725349">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1070429329442609" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1890,7 +1891,7 @@
             </object-type>
             <object-type name="Red59" sid="6291471048401705">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9259144900847449" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1905,7 +1906,7 @@
             </object-type>
             <object-type name="Red6" sid="487083439299425">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2698238998823956" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1920,7 +1921,7 @@
             </object-type>
             <object-type name="Red60" sid="4897486974040384">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9433236261124629" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1935,7 +1936,7 @@
             </object-type>
             <object-type name="Red61" sid="2965698053001347">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6788935691838696" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1950,7 +1951,7 @@
             </object-type>
             <object-type name="Red62" sid="185662967999322">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8351393010454587" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1965,7 +1966,7 @@
             </object-type>
             <object-type name="Red63" sid="4765954391233733">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2613264393928851" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1980,7 +1981,7 @@
             </object-type>
             <object-type name="Red64" sid="2259596536657431">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4317198171159798" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -1995,7 +1996,7 @@
             </object-type>
             <object-type name="Red7" sid="8030585404776504">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1882000728243214" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2010,7 +2011,7 @@
             </object-type>
             <object-type name="Red8" sid="5121427983820339">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7957757455006057" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2025,7 +2026,7 @@
             </object-type>
             <object-type name="Red9" sid="5981987608046483">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6333508891067025" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2040,7 +2041,7 @@
             </object-type>
             <object-type name="Red65" sid="8598650453262462">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8582220321455955" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2055,7 +2056,7 @@
             </object-type>
             <object-type name="Red66" sid="5725055174930135">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2052166535612286" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2070,7 +2071,7 @@
             </object-type>
             <object-type name="Red67" sid="1793480801671388">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9212254936285764" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2085,7 +2086,7 @@
             </object-type>
             <object-type name="Red68" sid="9617731175806161">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7766274763683821" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2100,7 +2101,7 @@
             </object-type>
             <object-type name="Red69" sid="4386771452633513">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1252193895137285" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
@@ -2115,7 +2116,7 @@
             </object-type>
             <object-type name="Red70" sid="3390705465449518">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2592062195392293" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
@@ -2123,7 +2124,7 @@
             </object-type>
             <object-type name="Red71" sid="3592129158607506">
                 <plugin id="Sprite" />
-                <animation-folder expanded="1">
+                <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="750720093353428" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
@@ -2137,7 +2138,7 @@
                     <effect id="noise" />
                 </effect-type>
             </effects>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1648386437243117" speed="60">
                     <frame duration="1" hotspotX="1.00391" hotspotY="0.492188">
                         <image-point name="Tip" x="0" y="0.492188" />
@@ -2160,7 +2161,7 @@
                     <effect id="noise" />
                 </effect-type>
             </effects>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4481973561845769" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0.5">
                         <image-point name="Imagepoint 1" x="1" y="0.5" />
@@ -2183,7 +2184,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3028576431345389" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
@@ -2207,7 +2208,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2244531302931989" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
@@ -2239,7 +2240,7 @@
                 <type>Blocks</type>
                 <type>BlockWheel</type>
             </container>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2954437229286474" speed="5">
                     <frame duration="1" hotspotX="0.521739" hotspotY="0.5">
                         <collision-poly>
@@ -2375,7 +2376,7 @@
                 <type>Ball</type>
                 <type>Bomb</type>
             </container>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4693162170784181" speed="5">
                     <frame duration="1" hotspotX="0.511111" hotspotY="0.511111">
                         <collision-poly>
@@ -2441,7 +2442,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5603099433658428" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0" />
                 </animation>
@@ -2466,7 +2467,7 @@
             <instance-variables>
                 <instance-variable name="level" sid="592111150791607" type="number" />
             </instance-variables>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7429622432444839" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0.5" />
                 </animation>
@@ -2477,7 +2478,7 @@
             <instance-variables>
                 <instance-variable name="level" sid="6690627840251175" type="number" />
             </instance-variables>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4792938087084155" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0.5" />
                 </animation>
@@ -2485,7 +2486,7 @@
         </object-type>
         <object-type name="ReloadBG" sid="5110751817509605">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846965814125633" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
@@ -2499,7 +2500,7 @@
         </object-type>
         <object-type name="Explosion" sid="7954922551165">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="55" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9785057132506127" speed="20">
                     <frame duration="1" hotspotX="0.501285" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.501285" hotspotY="0.5" />
@@ -2580,7 +2581,7 @@
                     <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9416278660196899" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
@@ -2597,7 +2598,7 @@
                     <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7206901461997759" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
@@ -2605,7 +2606,7 @@
         </object-type>
         <object-type name="RedBackground" sid="4198904150451255">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6167849751898049" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0" />
                 </animation>
@@ -2613,7 +2614,7 @@
         </object-type>
         <object-type name="BlueBackground" sid="2925511045317937">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5118699026918899" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0" />
                 </animation>
@@ -2621,7 +2622,7 @@
         </object-type>
         <object-type name="GreenBackground" sid="172670291038678">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3508677343394088" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0" />
                 </animation>
@@ -2634,7 +2635,7 @@
                     <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7060241243301964" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0" />
                 </animation>
@@ -2645,7 +2646,7 @@
         </object-type>
         <object-type name="Logo" sid="3871852100417946">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1623891957590132" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0.510204">
                         <collision-poly>
@@ -2668,7 +2669,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6490651457950521" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="1" />
                 </animation>
@@ -2682,7 +2683,7 @@
         </object-type>
         <object-type name="SoloButton" sid="6383364421509502">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4491931991573697" speed="5">
                     <frame duration="1" hotspotX="0.500914" hotspotY="0.503546">
                         <collision-poly>
@@ -2709,7 +2710,7 @@
         </object-type>
         <object-type name="VersusButton" sid="4509792341244682">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8490913304093141" speed="5">
                     <frame duration="1" hotspotX="0.500914" hotspotY="0.503546">
                         <collision-poly>
@@ -2736,7 +2737,7 @@
         </object-type>
         <object-type name="VersusOnlineButton" sid="5731224982693114">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default2" pingpong="0" repeatcount="1" repeatto="0" sid="3351092533814119" speed="5">
                     <frame duration="1" hotspotX="0.500914" hotspotY="0.503546">
                         <collision-poly>
@@ -2785,7 +2786,7 @@
         </object-type>
         <object-type name="Settings" sid="881413375781188">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3406947239024122" speed="5">
                     <frame duration="1" hotspotX="0.500914" hotspotY="0.503546">
                         <collision-poly>
@@ -2825,7 +2826,7 @@
                 <type>Ball</type>
                 <type>Bomb</type>
             </container>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="19" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6134956869479221" speed="62.5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.508197" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.508197" />
@@ -2862,7 +2863,7 @@
                     <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6462799401052561" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
@@ -2892,7 +2893,7 @@
                     <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9627704064628394" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
@@ -2917,7 +2918,7 @@
         </object-type>
         <object-type name="PausePlay" sid="8760720411812691">
             <plugin id="Sprite" />
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Pause" pingpong="0" repeatcount="1" repeatto="0" sid="2122661016623046" speed="5">
                     <frame duration="1" hotspotX="0.533333" hotspotY="0.516129">
                         <collision-poly>
@@ -2950,7 +2951,7 @@
                 <type>Blocks</type>
                 <type>BlockWheel</type>
             </container>
-            <animation-folder expanded="1">
+            <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2172837767977347" speed="5">
                     <frame duration="1" hotspotX="0.511111" hotspotY="0.511111">
                         <collision-poly>
@@ -3184,10 +3185,10 @@
             </members>
         </family>
     </families>
-    <layout-folder expanded="1">
+    <layout-folder>
         <layout>Main Game.xml</layout>
     </layout-folder>
-    <event-folder expanded="0">
+    <event-folder>
         <event-sheet>Main Sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
@@ -3200,7 +3201,6 @@
         </global-instance>
         <global-instance type="CocoonJS" uid="163">
             <properties>
-                <physics-engine>Accelerated</physics-engine>
                 <store-mode>Managed</store-mode>
                 <store-sandbox>Enabled</store-sandbox>
             </properties>
@@ -3209,6 +3209,7 @@
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
                 <positioned-audio></positioned-audio>
                 <panning-model>HRTF</panning-model>
                 <distance-model>Inverse</distance-model>
@@ -3216,19 +3217,23 @@
                 <reference-distance>600</reference-distance>
                 <maximum-distance>10000</maximum-distance>
                 <roll-off-factor>1</roll-off-factor>
-                <speed-of-sound>5000</speed-of-sound>
-                <doppler-factor>1</doppler-factor>
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder expanded="1">
+    <sounds-folder>
         <file name="laser-recharge.m4a" />
         <file name="laser-recharge.ogg" />
         <file name="laser-recharge.wav" />
     </sounds-folder>
-    <music-folder expanded="1" />
-    <files-folder expanded="0">
-        <file-folder expanded="1" name="Icons">
+    <music-folder>
+        <file name="djfroyd__techno-drum-loop.m4a" />
+        <file name="djfroyd__techno-drum-loop.ogg" />
+        <file name="alveg__justkidding.m4a" />
+        <file name="alveg__justkidding.ogg" />
+        <file name="soughtaftersounds__tech-rhythmic-sound.m4a" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
             <file name="icon-16.png" />
             <file name="icon-32.png" />
             <file name="icon-114.png" />
@@ -3236,7 +3241,7 @@
             <file name="loading-logo.png" />
             <file name="icon-256.png" />
         </file-folder>
-        <file-folder expanded="0" name="Fonts">
+        <file-folder name="Fonts">
             <file name="chintzy-webfont.eot" />
             <file name="chintzy-webfont.svg" />
             <file name="chintzy-webfont.ttf" />
