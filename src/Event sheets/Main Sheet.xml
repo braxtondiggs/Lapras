@@ -259,7 +259,7 @@
                         <event-block sid="4775563210452037">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="432969754658124" type="Keyboard">
-                                    <param id="0" name="Key">65 (A)</param>
+                                    <param id="0" name="Key">38 (Up arrow)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -271,7 +271,7 @@
                         <event-block sid="5689518519100619">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="9359174744178836" type="Keyboard">
-                                    <param id="0" name="Key">90 (Z)</param>
+                                    <param id="0" name="Key">40 (Down arrow)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -283,7 +283,7 @@
                         <event-block any="1" sid="4516673589440067">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="5280311144935288" type="Keyboard">
-                                    <param id="0" name="Key">88 (X)</param>
+                                    <param id="0" name="Key">39 (Right arrow)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -334,7 +334,7 @@
                         <event-block sid="4052810667427519">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="7020889427924831" type="Keyboard">
-                                    <param id="0" name="Key">38 (Up arrow)</param>
+                                    <param id="0" name="Key">65 (A)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -346,7 +346,7 @@
                         <event-block sid="4437723344522719">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="1009409379021744" type="Keyboard">
-                                    <param id="0" name="Key">40 (Down arrow)</param>
+                                    <param id="0" name="Key">90 (Z)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -358,7 +358,7 @@
                         <event-block any="1" sid="3431068677062501">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="8538992859694217" type="Keyboard">
-                                    <param id="0" name="Key">37 (Left arrow)</param>
+                                    <param id="0" name="Key">88 (X)</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -449,15 +449,20 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block disabled="1" sid="6817786931082631">
+                <event-block sid="6178481670166429">
                     <conditions>
-                        <condition id="-22" name="Else" sid="5889658781879852" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="5423611315933521" type="RedReload">
+                            <param id="0" name="Instance variable">level</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">93</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="8466974513414429" type="System" />
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="2996249970473827" type="Audio">
-                            <param id="0" name="Audio file">laser-recharge</param>
+                        <action id="0" name="Play" sid="7646802554770711" type="Audio">
+                            <param id="0" name="Audio file">suonho__memorymoon-space-blaster-plays</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">50</param>
+                            <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
@@ -548,6 +553,12 @@
                                     <param id="1" name="Layer">&quot;Red Paddle&quot;</param>
                                     <param id="2" name="Image point">0</param>
                                 </action>
+                                <action id="0" name="Play" sid="8323176659878543" type="Audio">
+                                    <param id="0" name="Audio file">deatlev__beam</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Red Laser&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="7943836295847551">
@@ -595,6 +606,12 @@
                                         <action id="0" name="Set spraying" sid="732599122047367" type="RedParticles">
                                             <param id="0" name="State">0</param>
                                         </action>
+                                        <action id="0" name="Play" sid="219131161785115" type="Audio">
+                                            <param id="0" name="Audio file">noirenex__power-down</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -610,6 +627,9 @@
                         <action id="-9" name="Destroy" sid="6460145327905499" type="RedLaserTip" />
                         <action id="0" name="Set spraying" sid="8013853179660857" type="RedParticles">
                             <param id="0" name="State">0</param>
+                        </action>
+                        <action id="6" name="Stop" sid="8057962378904485" type="Audio">
+                            <param id="0" name="Tag">&quot;Red Laser&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -681,15 +701,20 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block disabled="1" sid="1219758692093787">
+                <event-block sid="1903041653224715">
                     <conditions>
-                        <condition id="-22" name="Else" sid="9041363200036568" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="9954819556648019" type="BlueReload">
+                            <param id="0" name="Instance variable">level</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">93</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="6093328339236879" type="System" />
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="1920576533065004" type="Audio">
-                            <param id="0" name="Audio file">laser-recharge</param>
+                        <action id="0" name="Play" sid="5112748960260992" type="Audio">
+                            <param id="0" name="Audio file">suonho__memorymoon-space-blaster-plays</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">50</param>
+                            <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
@@ -780,6 +805,12 @@
                                     <param id="1" name="Layer">&quot;Blue Paddle&quot;</param>
                                     <param id="2" name="Image point">0</param>
                                 </action>
+                                <action id="0" name="Play" sid="4861264823430029" type="Audio">
+                                    <param id="0" name="Audio file">deatlev__beam</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Blue Beam&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="8451810324227503">
@@ -827,6 +858,12 @@
                                         <action id="0" name="Set spraying" sid="3284169134064732" type="BlueParticles">
                                             <param id="0" name="State">0</param>
                                         </action>
+                                        <action id="0" name="Play" sid="3374985065077021" type="Audio">
+                                            <param id="0" name="Audio file">noirenex__power-down</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -842,6 +879,9 @@
                         <action id="-9" name="Destroy" sid="6842332783511668" type="BlueLaserTip" />
                         <action id="0" name="Set spraying" sid="6463488001461914" type="BlueParticles">
                             <param id="0" name="State">0</param>
+                        </action>
+                        <action id="6" name="Stop" sid="8437827352670888" type="Audio">
+                            <param id="0" name="Tag">&quot;Blue Beam&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -862,6 +902,23 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action disabled="1" id="0" name="Play" sid="1891348882138719" type="Audio">
+                            <param id="0" name="Audio file">klankbeeld__laugh</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="958519088700998" type="GameOverTitle">
+                            <param id="0" name="Text">&quot;Blue Player Wins!&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="11072711331306" type="GameOverSubTitle">
+                            <param id="0" name="Text">&quot;Red Player was destroyed&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4127548489198263" type="GameOver">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action disabled="1" id="-24" name="Move to top" sid="5230083585584338" type="GreenBackground" />
+                        <action id="-24" name="Move to top" sid="2599576763615003" type="GameOver" />
                         <action id="-13" name="Set boolean" sid="5335709666548512" type="RedPaddleFamily">
                             <param id="0" name="Instance variable">running</param>
                             <param id="1" name="Value">0</param>
@@ -870,26 +927,38 @@
                             <param id="0" name="Variable">pongality</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-16" name="Wait" sid="8413579382914772" type="System">
+                        <action disabled="1" id="-16" name="Wait" sid="8413579382914772" type="System">
                             <param id="0" name="Seconds">2.0</param>
                         </action>
-                        <action id="-3" name="Set position" sid="4207342679042527" type="GreenBackground">
+                        <action disabled="1" id="-3" name="Set position" sid="4207342679042527" type="GreenBackground">
                             <param id="0" name="X">ViewportLeft(&quot;Background&quot;)</param>
                             <param id="1" name="Y">ViewportTop(&quot;Background&quot;)</param>
                         </action>
-                        <action id="-7" name="Set size" sid="7213226788603675" type="GreenBackground">
+                        <action disabled="1" id="-7" name="Set size" sid="7213226788603675" type="GreenBackground">
                             <param id="0" name="Width">ViewportRight(&quot;Background&quot;)</param>
                             <param id="1" name="Height">ViewportBottom(&quot;Background&quot;)</param>
                         </action>
-                        <action id="-13" name="Set time scale" sid="4462469999946316" type="System">
+                        <action disabled="1" id="-13" name="Set time scale" sid="4462469999946316" type="System">
                             <param id="0" name="Time scale">0</param>
                         </action>
-                        <action id="-16" name="Wait" sid="3090143526012722" type="System">
+                        <action disabled="1" id="-16" name="Wait" sid="3090143526012722" type="System">
                             <param id="0" name="Seconds">2.0</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="4143952034585509" type="GreenBackground" />
-                        <action id="-13" name="Set time scale" sid="3866027697830447" type="System">
+                        <action disabled="1" id="-9" name="Destroy" sid="4143952034585509" type="GreenBackground" />
+                        <action disabled="1" id="-13" name="Set time scale" sid="3866027697830447" type="System">
                             <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action disabled="1" id="-11" name="Add to" sid="182851609509347" type="BluePaddleFamily">
+                            <param id="0" name="Instance variable">Goals</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="4293689985081403" type="System">
+                            <param id="0" name="Variable">start</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="8659992070940359" type="System">
+                            <param id="0" name="Variable">reset</param>
+                            <param id="1" name="Value">2</param>
                         </action>
                     </actions>
                 </event-block>
@@ -910,6 +979,23 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action disabled="1" id="0" name="Play" sid="8099972306148937" type="Audio">
+                            <param id="0" name="Audio file">klankbeeld__laugh</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1199060404031937" type="GameOverTitle">
+                            <param id="0" name="Text">&quot;Red Player Wins!&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2586718353034406" type="GameOverSubTitle">
+                            <param id="0" name="Text">&quot;Blue Player was destroyed&quot;</param>
+                        </action>
+                        <action disabled="1" id="-24" name="Move to top" sid="1869165022786188" type="GreenBackground" />
+                        <action id="-24" name="Move to top" sid="1027663343439036" type="GameOver" />
+                        <action id="-15" name="Set visible" sid="7134665856953548" type="GameOver">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                         <action id="-13" name="Set boolean" sid="6951659861366543" type="BluePaddleFamily">
                             <param id="0" name="Instance variable">running</param>
                             <param id="1" name="Value">0</param>
@@ -918,26 +1004,38 @@
                             <param id="0" name="Variable">pongality</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-16" name="Wait" sid="6830379008444931" type="System">
+                        <action disabled="1" id="-16" name="Wait" sid="6830379008444931" type="System">
                             <param id="0" name="Seconds">2.0</param>
                         </action>
-                        <action id="-3" name="Set position" sid="7914035203495493" type="GreenBackground">
+                        <action disabled="1" id="-3" name="Set position" sid="7914035203495493" type="GreenBackground">
                             <param id="0" name="X">ViewportLeft(&quot;Background&quot;)</param>
                             <param id="1" name="Y">ViewportTop(&quot;Background&quot;)</param>
                         </action>
-                        <action id="-7" name="Set size" sid="4830712307346404" type="GreenBackground">
+                        <action disabled="1" id="-7" name="Set size" sid="4830712307346404" type="GreenBackground">
                             <param id="0" name="Width">ViewportRight(&quot;Background&quot;)</param>
                             <param id="1" name="Height">ViewportBottom(&quot;Background&quot;)</param>
                         </action>
-                        <action id="-13" name="Set time scale" sid="2772096372967705" type="System">
+                        <action disabled="1" id="-13" name="Set time scale" sid="2772096372967705" type="System">
                             <param id="0" name="Time scale">0</param>
                         </action>
-                        <action id="-16" name="Wait" sid="21301206612115" type="System">
+                        <action disabled="1" id="-16" name="Wait" sid="21301206612115" type="System">
                             <param id="0" name="Seconds">2.0</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="9239776136294355" type="GreenBackground" />
-                        <action id="-13" name="Set time scale" sid="4897918518504388" type="System">
+                        <action disabled="1" id="-9" name="Destroy" sid="9239776136294355" type="GreenBackground" />
+                        <action disabled="1" id="-13" name="Set time scale" sid="4897918518504388" type="System">
                             <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action disabled="1" id="-11" name="Add to" sid="4297163787131443" type="RedPaddleFamily">
+                            <param id="0" name="Instance variable">Goals</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="729816629014791" type="System">
+                            <param id="0" name="Variable">start</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="1335823653071744" type="System">
+                            <param id="0" name="Variable">reset</param>
+                            <param id="1" name="Value">2</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1023,12 +1121,19 @@
                     <param id="0" name="X">ViewportRight(&quot;Background&quot;)-15</param>
                     <param id="1" name="Y">ViewportBottom(&quot;Background&quot;) -15</param>
                 </action>
-                <action id="0" name="Play" sid="294820869003343" type="Audio">
-                    <param id="0" name="Audio file">djfroyd__techno-drum-loop</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;Intro Audio&quot;</param>
+                <action id="-15" name="Set visible" sid="1106339614288372" type="SettingSprites">
+                    <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-15" name="Set visible" sid="4864592867660252" type="SettingText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="7535043225567627" type="SettingSprites">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="2508956645300254" type="AudioContols">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="2" name="Stop" sid="957481561367545" type="AudioContols" />
             </actions>
             <sub-events>
                 <event-block sid="1179851004852985">
@@ -1084,6 +1189,16 @@
                             <param id="1" name="CSS URL">&quot;stylesheet1.css&quot;</param>
                         </action>
                     </actions>
+                </event-block>
+                <event-block sid="8773420705312505">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3739890856053481" type="System">
+                            <param id="0" name="Variable">Layout</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
                 </event-block>
             </sub-events>
         </event-block>
@@ -1368,6 +1483,12 @@
                                     <param id="3" name="Y">200</param>
                                 </action>
                                 <action behavior="Fade" id="1" name="Start fade" sid="9743080006713232" type="BlueHightlight" />
+                                <action id="0" name="Play" sid="3240787055615252" type="Audio">
+                                    <param id="0" name="Audio file">littlerobotsoundfactory__spell-01</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Score&quot;</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="808966785121518">
@@ -1447,7 +1568,35 @@
                                                 <action id="0" name="Set text" sid="8630404374795166" type="RedGoals">
                                                     <param id="0" name="Text">RedPaddleFamily.Goals</param>
                                                 </action>
+                                                <action id="0" name="Set text" sid="8068384950614056" type="GameOverTitle">
+                                                    <param id="0" name="Text">&quot;Red Player Wins!&quot;</param>
+                                                </action>
+                                                <action id="-15" name="Set visible" sid="5425113773154245" type="GameOver">
+                                                    <param id="0" name="Visibility">1</param>
+                                                </action>
+                                                <action id="-15" name="Set visible" sid="2303116775475075" type="GameOverSubTitle">
+                                                    <param id="0" name="Visibility">0</param>
+                                                </action>
                                             </actions>
+                                            <sub-events>
+                                                <event-block sid="8725934278911096">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="3979463033550155" type="System">
+                                                            <param id="0" name="Variable">pongality</param>
+                                                            <param id="1" name="Comparison">1</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="8580673100118891" type="Audio">
+                                                            <param id="0" name="Audio file">jivatma07__j1game-over-mono</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -1468,6 +1617,12 @@
                                     <param id="3" name="Y">204</param>
                                 </action>
                                 <action behavior="Fade" id="1" name="Start fade" sid="1471433532011109" type="RedHighlighter" />
+                                <action id="0" name="Play" sid="5844847778906832" type="Audio">
+                                    <param id="0" name="Audio file">littlerobotsoundfactory__spell-01</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Score&quot;</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="3429447419180698">
@@ -1547,7 +1702,35 @@
                                                     <param id="0" name="Variable">bomb_running</param>
                                                     <param id="1" name="Value">0</param>
                                                 </action>
+                                                <action id="0" name="Set text" sid="9185173515068058" type="GameOverTitle">
+                                                    <param id="0" name="Text">&quot;Blue Player Wins!&quot;</param>
+                                                </action>
+                                                <action id="-15" name="Set visible" sid="3260192744457587" type="GameOver">
+                                                    <param id="0" name="Visibility">1</param>
+                                                </action>
+                                                <action id="-15" name="Set visible" sid="1291477750008579" type="GameOverSubTitle">
+                                                    <param id="0" name="Visibility">0</param>
+                                                </action>
                                             </actions>
+                                            <sub-events>
+                                                <event-block sid="2733793396836103">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="2982116547313186" type="System">
+                                                            <param id="0" name="Variable">pongality</param>
+                                                            <param id="1" name="Comparison">1</param>
+                                                            <param id="2" name="Value">1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="4363581289789369" type="Audio">
+                                                            <param id="0" name="Audio file">jivatma07__j1game-over-mono</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -1562,6 +1745,15 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="6" name="Stop" sid="8060252793053559" type="Audio">
+                                    <param id="0" name="Tag">&quot;Score&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="1659122283824384" type="Audio">
+                                    <param id="0" name="Audio file">tommccann__explosion-01</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                                 <action id="-3" name="Create object" sid="7045520410969104" type="System">
                                     <param id="0" name="Object to create">Explosion</param>
                                     <param id="1" name="Layer">0</param>
@@ -1592,6 +1784,12 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="406884192378503" type="Blocks" />
+                        <action id="0" name="Play" sid="5161485938837445" type="Audio">
+                            <param id="0" name="Audio file">djgriffin__wasp-wah-c-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <comment>Bomb</comment>
@@ -1704,7 +1902,14 @@
                                     <param id="1" name="Number">3</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="0" name="Play" sid="8379169984028371" type="Audio">
+                                    <param id="0" name="Audio file">thehorriblejoke_wub-wub-wub</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
                             <sub-events>
                                 <event-block sid="6187683588070449">
                                     <conditions>
@@ -1945,7 +2150,7 @@
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="6326615664774586" type="Blocks">
-                    <param id="0" name="Frame number">floor(random(0,9))</param>
+                    <param id="0" name="Frame number">floor(random(0,0))</param>
                 </action>
                 <action id="2" name="Stop" sid="9623422950672269" type="Blocks" />
             </actions>
@@ -2037,6 +2242,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="5157465351485706" type="Audio">
+                    <param id="0" name="Audio file">blackstalian__click-sfx8</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Click&quot;</param>
+                </action>
                 <action id="-9" name="Set value" sid="7545893677629602" type="System">
                     <param id="0" name="Variable">start</param>
                     <param id="1" name="Value">0</param>
@@ -2050,13 +2261,13 @@
                     <param id="0" name="Variable">BlueControls</param>
                     <param id="1" name="Value">&quot;User&quot;</param>
                 </action>
+                <action id="6" name="Stop" sid="1303634605492399" type="Audio">
+                    <param id="0" name="Tag">&quot;Intro Audio&quot;</param>
+                </action>
                 <action id="33" name="Stop all" sid="6748528928293432" type="Audio" />
                 <action id="22" name="Set paused" sid="6203298566156486" type="Audio">
                     <param id="0" name="Tag">&quot;Intro Audio&quot;</param>
                     <param id="1" name="State">0</param>
-                </action>
-                <action id="6" name="Stop" sid="1303634605492399" type="Audio">
-                    <param id="0" name="Tag">&quot;Intro Audio&quot;</param>
                 </action>
                 <action id="0" name="Play" sid="8169888993605617" type="Audio">
                     <param id="0" name="Audio file">alveg__justkidding</param>
@@ -2078,6 +2289,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="5420209797736921" type="Audio">
+                    <param id="0" name="Audio file">blackstalian__click-sfx8</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Click&quot;</param>
+                </action>
                 <action id="-9" name="Set value" sid="5471344399883751" type="System">
                     <param id="0" name="Variable">start</param>
                     <param id="1" name="Value">0</param>
@@ -2110,6 +2327,164 @@
                     <param id="1" name="Tag (optional)">&quot;main audio&quot;</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block any="1" sid="6356019420722994">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4590146202863336" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Settings</param>
+                </condition>
+                <condition id="3" name="On touched object" sid="746060101351443" type="Touch">
+                    <param id="0" name="Object">Settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="7418113938179867" type="IntroFamilly">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4030298935886791" type="SettingSprites">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3478997457577999" type="SettingText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="7979399520951451" type="IntroFamilly" />
+                <action id="4" name="Set font color" sid="4787160271105031" type="SettingText">
+                    <param id="0" name="Color">rgb(255, 255, 255)</param>
+                </action>
+                <action id="-9" name="Set value" sid="5073191920640182" type="System">
+                    <param id="0" name="Variable">Layout</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="2" name="Stop" sid="678085050291376" type="SettingSprites" />
+                <action id="5" name="Set frame" sid="456553436842905" type="InfoBlocks1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="7077985942775145" type="InfoBlocks2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="2690736300710573" type="InfoBlocks3">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="9816779680436778" type="InfoBlocks4">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="6693680406023395" type="InfoBlocks5">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action disabled="1" id="-7" name="Set size" sid="5241045887478313" type="SettingSprites">
+                    <param id="0" name="Width">23</param>
+                    <param id="1" name="Height">24</param>
+                </action>
+                <action id="5" name="Set frame" sid="5380338977828349" type="InfoBlocks6">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="5" name="Set frame" sid="2456775740083394" type="InfoBlocks7">
+                    <param id="0" name="Frame number">6</param>
+                </action>
+                <action id="5" name="Set frame" sid="3056532825826243" type="InfoBlocks8">
+                    <param id="0" name="Frame number">8</param>
+                </action>
+                <action id="5" name="Set frame" sid="391257203400688" type="InfoBlocks9">
+                    <param id="0" name="Frame number">7</param>
+                </action>
+                <action id="0" name="Play" sid="4367480914279646" type="Audio">
+                    <param id="0" name="Audio file">blackstalian__click-sfx8</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Click&quot;</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="3601039173973378" type="SettingSprites">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="9063810311877019">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7560976034703936" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Back</param>
+                </condition>
+                <condition id="3" name="On touched object" sid="5222624321538089" type="Touch">
+                    <param id="0" name="Object">Back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1038274693577166" type="IntroFamilly">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4063253340732132" type="SettingSprites">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4070926476628882" type="SettingText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-24" name="Move to top" sid="6537573050940036" type="IntroFamilly" />
+                <action id="0" name="Play" sid="7701489801646228" type="Audio">
+                    <param id="0" name="Audio file">blackstalian__click-sfx8</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Click&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="346030087162314">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1268696948553283" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">AudioContols</param>
+                </condition>
+                <condition id="3" name="On touched object" sid="7660690662060048" type="Touch">
+                    <param id="0" name="Object">AudioContols</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2015222746256767">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1018168108282392" type="System">
+                            <param id="0" name="Variable">isMuted</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="2271806574074277" type="AudioContols">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="2" name="Stop" sid="4929150508148224" type="AudioContols" />
+                        <action id="-9" name="Set value" sid="9056289481399776" type="System">
+                            <param id="0" name="Variable">isMuted</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action disabled="1" id="8" name="Set silent" sid="8988927051783347" type="Audio">
+                            <param id="0" name="Mode">0</param>
+                        </action>
+                        <action disabled="1" id="33" name="Stop all" sid="8376777064389073" type="Audio" />
+                    </actions>
+                </event-block>
+                <event-block sid="2974177220054784">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2880896593101286" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="1624218302482468" type="AudioContols">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="2" name="Stop" sid="1112579484539732" type="AudioContols" />
+                        <action id="-9" name="Set value" sid="9605355874011109" type="System">
+                            <param id="0" name="Variable">isMuted</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action disabled="1" id="8" name="Set silent" sid="8606592382247281" type="Audio">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="935772732817117">
             <conditions>
@@ -2224,8 +2599,29 @@
                     <param id="0" name="Width">0</param>
                     <param id="1" name="Height">0</param>
                 </action>
+                <action id="-15" name="Set visible" sid="9416226286883056" type="GameOver">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="7232596610779624" type="Blueshield" />
             </actions>
             <sub-events>
+                <event-block disabled="1" sid="5321087070870156">
+                    <conditions>
+                        <condition id="-10" name="For" sid="4342692871495682" type="System">
+                            <param id="0" name="Name">&quot;Inital Ball Count&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">random(4)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="3742130639981005" type="System">
+                            <param id="0" name="Object to create">Ball</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">ViewportRight(&quot;Background&quot;) /2</param>
+                            <param id="3" name="Y">ViewportBottom(&quot;Background&quot;) /2</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="8582210895290539">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="2282948498609154" type="System">

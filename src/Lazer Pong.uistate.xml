@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Main Game</layout>
-        <event-sheet active="1" order="1">Main Sheet</event-sheet>
+        <layout order="1">Main Game</layout>
+        <event-sheet active="1" order="2">Main Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -19,21 +19,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="1">
+    <families-expanded root="0">
         <family expanded="0" name="BluePaddleFamily" />
         <family expanded="0" name="RedPaddleFamily" />
         <family expanded="1" name="IntroFamilly" />
-        <family expanded="1" name="Buttons" />
+        <family expanded="0" name="Buttons" />
         <family expanded="0" name="FontFamily" />
+        <family expanded="0" name="SettingText" />
+        <family expanded="1" name="SettingSprites" />
+        <family expanded="1" name="GameOver" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Blue Paddle/" />
         <folder expanded="0" path="object-folder/Red Paddle/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="0" path="file-folder/Fonts/" />
@@ -207,5 +210,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Blueshield/" />
         <folder expanded="1" path="animation-folder/PausePlay/" />
         <folder expanded="1" path="animation-folder/BlockWheel/" />
+        <folder expanded="1" path="animation-folder/Back/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks1/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks2/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks3/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks4/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks5/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks6/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks7/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks8/" />
+        <folder expanded="1" path="animation-folder/InfoBlocks9/" />
+        <folder expanded="1" path="animation-folder/AudioContols/" />
     </folders-expanded>
 </c2uistate>
