@@ -901,66 +901,96 @@
                             <param id="2" name="Second value">71</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action disabled="1" id="0" name="Play" sid="1891348882138719" type="Audio">
-                            <param id="0" name="Audio file">klankbeeld__laugh</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                        <action id="0" name="Set text" sid="958519088700998" type="GameOverTitle">
-                            <param id="0" name="Text">&quot;Blue Player Wins!&quot;</param>
-                        </action>
-                        <action id="0" name="Set text" sid="11072711331306" type="GameOverSubTitle">
-                            <param id="0" name="Text">&quot;Red Player was destroyed&quot;</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="4127548489198263" type="GameOver">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action disabled="1" id="-24" name="Move to top" sid="5230083585584338" type="GreenBackground" />
-                        <action id="-24" name="Move to top" sid="2599576763615003" type="GameOver" />
-                        <action id="-13" name="Set boolean" sid="5335709666548512" type="RedPaddleFamily">
-                            <param id="0" name="Instance variable">running</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="5466662953935852" type="System">
-                            <param id="0" name="Variable">pongality</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action disabled="1" id="-16" name="Wait" sid="8413579382914772" type="System">
-                            <param id="0" name="Seconds">2.0</param>
-                        </action>
-                        <action disabled="1" id="-3" name="Set position" sid="4207342679042527" type="GreenBackground">
-                            <param id="0" name="X">ViewportLeft(&quot;Background&quot;)</param>
-                            <param id="1" name="Y">ViewportTop(&quot;Background&quot;)</param>
-                        </action>
-                        <action disabled="1" id="-7" name="Set size" sid="7213226788603675" type="GreenBackground">
-                            <param id="0" name="Width">ViewportRight(&quot;Background&quot;)</param>
-                            <param id="1" name="Height">ViewportBottom(&quot;Background&quot;)</param>
-                        </action>
-                        <action disabled="1" id="-13" name="Set time scale" sid="4462469999946316" type="System">
-                            <param id="0" name="Time scale">0</param>
-                        </action>
-                        <action disabled="1" id="-16" name="Wait" sid="3090143526012722" type="System">
-                            <param id="0" name="Seconds">2.0</param>
-                        </action>
-                        <action disabled="1" id="-9" name="Destroy" sid="4143952034585509" type="GreenBackground" />
-                        <action disabled="1" id="-13" name="Set time scale" sid="3866027697830447" type="System">
-                            <param id="0" name="Time scale">1.0</param>
-                        </action>
-                        <action disabled="1" id="-11" name="Add to" sid="182851609509347" type="BluePaddleFamily">
-                            <param id="0" name="Instance variable">Goals</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action disabled="1" id="-9" name="Set value" sid="4293689985081403" type="System">
-                            <param id="0" name="Variable">start</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action disabled="1" id="-9" name="Set value" sid="8659992070940359" type="System">
-                            <param id="0" name="Variable">reset</param>
-                            <param id="1" name="Value">2</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6035559608916885">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9573146050286022" type="System">
+                                    <param id="0" name="Variable">Layout</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="1216341044125797" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="1170581090260471" type="System">
+                                    <param id="0" name="Variable">reset</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="5656069859094525" type="System">
+                                    <param id="0" name="Variable">start</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1635312755395782">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="2871559819765229" type="System" />
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="0" name="Play" sid="1891348882138719" type="Audio">
+                                    <param id="0" name="Audio file">klankbeeld__laugh</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="958519088700998" type="GameOverTitle">
+                                    <param id="0" name="Text">&quot;Blue Player Wins!&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="11072711331306" type="GameOverSubTitle">
+                                    <param id="0" name="Text">&quot;Red Player was destroyed&quot;</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="4127548489198263" type="GameOver">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action disabled="1" id="-24" name="Move to top" sid="5230083585584338" type="GreenBackground" />
+                                <action id="-24" name="Move to top" sid="2599576763615003" type="GameOver" />
+                                <action id="-13" name="Set boolean" sid="5335709666548512" type="RedPaddleFamily">
+                                    <param id="0" name="Instance variable">running</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="5466662953935852" type="System">
+                                    <param id="0" name="Variable">pongality</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action disabled="1" id="-16" name="Wait" sid="8413579382914772" type="System">
+                                    <param id="0" name="Seconds">2.0</param>
+                                </action>
+                                <action disabled="1" id="-3" name="Set position" sid="4207342679042527" type="GreenBackground">
+                                    <param id="0" name="X">ViewportLeft(&quot;Background&quot;)</param>
+                                    <param id="1" name="Y">ViewportTop(&quot;Background&quot;)</param>
+                                </action>
+                                <action disabled="1" id="-7" name="Set size" sid="7213226788603675" type="GreenBackground">
+                                    <param id="0" name="Width">ViewportRight(&quot;Background&quot;)</param>
+                                    <param id="1" name="Height">ViewportBottom(&quot;Background&quot;)</param>
+                                </action>
+                                <action disabled="1" id="-13" name="Set time scale" sid="4462469999946316" type="System">
+                                    <param id="0" name="Time scale">0</param>
+                                </action>
+                                <action disabled="1" id="-16" name="Wait" sid="3090143526012722" type="System">
+                                    <param id="0" name="Seconds">2.0</param>
+                                </action>
+                                <action disabled="1" id="-9" name="Destroy" sid="4143952034585509" type="GreenBackground" />
+                                <action disabled="1" id="-13" name="Set time scale" sid="3866027697830447" type="System">
+                                    <param id="0" name="Time scale">1.0</param>
+                                </action>
+                                <action disabled="1" id="-11" name="Add to" sid="182851609509347" type="BluePaddleFamily">
+                                    <param id="0" name="Instance variable">Goals</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action disabled="1" id="-9" name="Set value" sid="4293689985081403" type="System">
+                                    <param id="0" name="Variable">start</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action disabled="1" id="-9" name="Set value" sid="8659992070940359" type="System">
+                                    <param id="0" name="Variable">reset</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-block>
@@ -978,66 +1008,96 @@
                             <param id="2" name="Second value">71</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action disabled="1" id="0" name="Play" sid="8099972306148937" type="Audio">
-                            <param id="0" name="Audio file">klankbeeld__laugh</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                        <action id="0" name="Set text" sid="1199060404031937" type="GameOverTitle">
-                            <param id="0" name="Text">&quot;Red Player Wins!&quot;</param>
-                        </action>
-                        <action id="0" name="Set text" sid="2586718353034406" type="GameOverSubTitle">
-                            <param id="0" name="Text">&quot;Blue Player was destroyed&quot;</param>
-                        </action>
-                        <action disabled="1" id="-24" name="Move to top" sid="1869165022786188" type="GreenBackground" />
-                        <action id="-24" name="Move to top" sid="1027663343439036" type="GameOver" />
-                        <action id="-15" name="Set visible" sid="7134665856953548" type="GameOver">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6951659861366543" type="BluePaddleFamily">
-                            <param id="0" name="Instance variable">running</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="6299483187132291" type="System">
-                            <param id="0" name="Variable">pongality</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action disabled="1" id="-16" name="Wait" sid="6830379008444931" type="System">
-                            <param id="0" name="Seconds">2.0</param>
-                        </action>
-                        <action disabled="1" id="-3" name="Set position" sid="7914035203495493" type="GreenBackground">
-                            <param id="0" name="X">ViewportLeft(&quot;Background&quot;)</param>
-                            <param id="1" name="Y">ViewportTop(&quot;Background&quot;)</param>
-                        </action>
-                        <action disabled="1" id="-7" name="Set size" sid="4830712307346404" type="GreenBackground">
-                            <param id="0" name="Width">ViewportRight(&quot;Background&quot;)</param>
-                            <param id="1" name="Height">ViewportBottom(&quot;Background&quot;)</param>
-                        </action>
-                        <action disabled="1" id="-13" name="Set time scale" sid="2772096372967705" type="System">
-                            <param id="0" name="Time scale">0</param>
-                        </action>
-                        <action disabled="1" id="-16" name="Wait" sid="21301206612115" type="System">
-                            <param id="0" name="Seconds">2.0</param>
-                        </action>
-                        <action disabled="1" id="-9" name="Destroy" sid="9239776136294355" type="GreenBackground" />
-                        <action disabled="1" id="-13" name="Set time scale" sid="4897918518504388" type="System">
-                            <param id="0" name="Time scale">1.0</param>
-                        </action>
-                        <action disabled="1" id="-11" name="Add to" sid="4297163787131443" type="RedPaddleFamily">
-                            <param id="0" name="Instance variable">Goals</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action disabled="1" id="-9" name="Set value" sid="729816629014791" type="System">
-                            <param id="0" name="Variable">start</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action disabled="1" id="-9" name="Set value" sid="1335823653071744" type="System">
-                            <param id="0" name="Variable">reset</param>
-                            <param id="1" name="Value">2</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="855551798854394">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8707281258726587" type="System">
+                                    <param id="0" name="Variable">Layout</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="1212922029373285" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="4480926949183681" type="System">
+                                    <param id="0" name="Variable">reset</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="9412932248449781" type="System">
+                                    <param id="0" name="Variable">start</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3775168164482517">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="7472089308160787" type="System" />
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="0" name="Play" sid="8099972306148937" type="Audio">
+                                    <param id="0" name="Audio file">klankbeeld__laugh</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="1199060404031937" type="GameOverTitle">
+                                    <param id="0" name="Text">&quot;Red Player Wins!&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="2586718353034406" type="GameOverSubTitle">
+                                    <param id="0" name="Text">&quot;Blue Player was destroyed&quot;</param>
+                                </action>
+                                <action disabled="1" id="-24" name="Move to top" sid="1869165022786188" type="GreenBackground" />
+                                <action id="-24" name="Move to top" sid="1027663343439036" type="GameOver" />
+                                <action id="-15" name="Set visible" sid="7134665856953548" type="GameOver">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6951659861366543" type="BluePaddleFamily">
+                                    <param id="0" name="Instance variable">running</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="6299483187132291" type="System">
+                                    <param id="0" name="Variable">pongality</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action disabled="1" id="-16" name="Wait" sid="6830379008444931" type="System">
+                                    <param id="0" name="Seconds">2.0</param>
+                                </action>
+                                <action disabled="1" id="-3" name="Set position" sid="7914035203495493" type="GreenBackground">
+                                    <param id="0" name="X">ViewportLeft(&quot;Background&quot;)</param>
+                                    <param id="1" name="Y">ViewportTop(&quot;Background&quot;)</param>
+                                </action>
+                                <action disabled="1" id="-7" name="Set size" sid="4830712307346404" type="GreenBackground">
+                                    <param id="0" name="Width">ViewportRight(&quot;Background&quot;)</param>
+                                    <param id="1" name="Height">ViewportBottom(&quot;Background&quot;)</param>
+                                </action>
+                                <action disabled="1" id="-13" name="Set time scale" sid="2772096372967705" type="System">
+                                    <param id="0" name="Time scale">0</param>
+                                </action>
+                                <action disabled="1" id="-16" name="Wait" sid="21301206612115" type="System">
+                                    <param id="0" name="Seconds">2.0</param>
+                                </action>
+                                <action disabled="1" id="-9" name="Destroy" sid="9239776136294355" type="GreenBackground" />
+                                <action disabled="1" id="-13" name="Set time scale" sid="4897918518504388" type="System">
+                                    <param id="0" name="Time scale">1.0</param>
+                                </action>
+                                <action disabled="1" id="-11" name="Add to" sid="4297163787131443" type="RedPaddleFamily">
+                                    <param id="0" name="Instance variable">Goals</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action disabled="1" id="-9" name="Set value" sid="729816629014791" type="System">
+                                    <param id="0" name="Variable">start</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action disabled="1" id="-9" name="Set value" sid="1335823653071744" type="System">
+                                    <param id="0" name="Variable">reset</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-block>
@@ -1510,12 +1570,16 @@
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action id="-16" name="Wait" sid="8037927038858279" type="System">
-                                                    <param id="0" name="Seconds">1.0</param>
-                                                </action>
                                                 <action id="-9" name="Set value" sid="4094184499158384" type="System">
                                                     <param id="0" name="Variable">reset</param>
                                                     <param id="1" name="Value">3</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="8037927038858279" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="3543311317813094" type="System">
+                                                    <param id="0" name="Variable">start</param>
+                                                    <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -1644,12 +1708,16 @@
                                                 </condition>
                                             </conditions>
                                             <actions>
-                                                <action id="-16" name="Wait" sid="9209257149057687" type="System">
-                                                    <param id="0" name="Seconds">1.0</param>
-                                                </action>
                                                 <action id="-9" name="Set value" sid="9816699744433199" type="System">
                                                     <param id="0" name="Variable">reset</param>
                                                     <param id="1" name="Value">3</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="9209257149057687" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="-9" name="Set value" sid="1030560978936918" type="System">
+                                                    <param id="0" name="Variable">start</param>
+                                                    <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -2150,7 +2218,7 @@
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="6326615664774586" type="Blocks">
-                    <param id="0" name="Frame number">floor(random(0,0))</param>
+                    <param id="0" name="Frame number">floor(random(0,9))</param>
                 </action>
                 <action id="2" name="Stop" sid="9623422950672269" type="Blocks" />
             </actions>
